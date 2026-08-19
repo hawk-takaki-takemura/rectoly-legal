@@ -76,7 +76,7 @@
 <body>
 <main>
   <h1>Rectoly — プライバシーポリシー</h1>
-  <p class="updated">最終更新日 2026年8月9日</p>
+  <p class="updated">最終更新日 2026年8月19日</p>
   <nav class="langs" aria-label="言語">
   <div class="label">言語</div>
   <a href="privacy-en.html">English</a>
@@ -102,12 +102,14 @@
 </nav>
 
   <p>
-    Hawk Eye（以下「当社」）は、Mendeley Reference Manager と連携して学術 PDF の閲覧・注釈・同期を行う iPad アプリ Rectoly を開発しています。本ポリシーでは、Rectoly がどのような情報を収集し、なぜ収集し、どのように取り扱うかを説明します。
+    Hawk Eye（以下「当社」）は、Mendeley Reference Manager および Zotero と連携して学術 PDF の閲覧・注釈・同期を行う iPad アプリ Rectoly を開発しています。本ポリシーでは、Rectoly がどのような情報を収集し、なぜ収集し、どのように取り扱うかを説明します。
   </p>
 
   <h2>収集する情報</h2>
 
   <p><strong>Mendeley アカウントとの連携。</strong> Mendeley でサインインすると、Rectoly はライブラリ、文書、注釈の読み取りと同期のために OAuth アクセストークンを要求します。このトークンは端末の Keychain に保存され、当社のサーバーに送信されることはありません。Rectoly は Mendeley 自身の API と直接通信します。</p>
+
+  <p><strong>Zotero アカウントとの連携。</strong> Zotero でサインインすると、Rectoly はライブラリ、文書、注釈の読み取りと同期のために Zotero API キーを要求します。このキーは端末の Keychain に保存され、当社のサーバーに送信されることはありません。Rectoly は Zotero 自身の API と直接通信します。</p>
 
   <p><strong>文書と注釈。</strong> 開いた PDF、ならびにハイライト、下線、付箋メモ、手書きインクは、すべて端末上に保存されます。iCloud バックアップを有効にすると、このデータ（および別途オプトインした場合は手書きデータ）は Apple の CloudKit 経由でご自身の iCloud アカウントにバックアップされます。当社はこのデータにアクセスできません。データは暗号化され、お客様の Apple ID の範囲に限定されます。</p>
 
@@ -127,6 +129,7 @@
   <h2>第三者サービス</h2>
   <ul>
     <li><strong>Mendeley (Elsevier)</strong> — 参考文献ライブラリおよび文書の同期</li>
+    <li><strong>Zotero (Corporation for Digital Scholarship)</strong> — 参考文献ライブラリおよび文書の同期</li>
     <li><strong>Apple iCloud / CloudKit</strong> — 任意のバックアップ（お客様の Apple ID により管理）</li>
     <li><strong>Sentry</strong> — クラッシュおよびエラー報告</li>
     <li><strong>TelemetryDeck</strong> — 匿名のプロダクト分析</li>
@@ -136,7 +139,7 @@
 
   <h2>データの保持と削除</h2>
   <p>
-    文書、注釈、手書きデータは、削除するかアプリを削除するまで端末上に残ります。iCloud バックアップが有効な場合は、Rectoly の設定で無効にするか、端末の「設定」アプリからアプリの iCloud データを削除できます。Mendeley アカウントの連携を解除すると、ローカルに保存されたアクセストークンは直ちに削除されます。
+    文書、注釈、手書きデータは、削除するかアプリを削除するまで端末上に残ります。iCloud バックアップが有効な場合は、Rectoly の設定で無効にするか、端末の「設定」アプリからアプリの iCloud データを削除できます。Mendeley または Zotero アカウントの連携を解除すると、ローカルに保存されたアクセストークンまたは API キーは直ちに削除されます。
   </p>
 
   <h2>お子様のプライバシー</h2>

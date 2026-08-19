@@ -76,7 +76,7 @@
 <body>
 <main>
   <h1>Rectoly — Integritetspolicy</h1>
-  <p class="updated">Senast uppdaterad den 9 augusti 2026</p>
+  <p class="updated">Senast uppdaterad den 19 augusti 2026</p>
   <nav class="langs" aria-label="Språk">
   <div class="label">Språk</div>
   <a href="privacy-en.html">English</a>
@@ -102,12 +102,14 @@
 </nav>
 
   <p>
-    Hawk Eye (&quot;vi&quot;, &quot;oss&quot;) utvecklar Rectoly, en iPad-app för att läsa, annotera och synkronisera akademiska PDF-filer med Mendeley Reference Manager. Denna policy förklarar vilken information Rectoly samlar in, varför och hur den hanteras.
+    Hawk Eye (&quot;vi&quot;, &quot;oss&quot;) utvecklar Rectoly, en iPad-app för att läsa, annotera och synkronisera akademiska PDF-filer med referenshanterare som Mendeley Reference Manager och Zotero. Denna policy förklarar vilken information Rectoly samlar in, varför och hur den hanteras.
   </p>
 
   <h2>Information vi samlar in</h2>
 
   <p><strong>Din Mendeley-kontokoppling.</strong> När du loggar in med Mendeley begär Rectoly en OAuth-åtkomsttoken för att läsa och synkronisera ditt bibliotek, dokument och anteckningar. Denna token lagras i enhetens Keychain och skickas aldrig till våra servrar — Rectoly kommunicerar direkt med Mendeleys egen API.</p>
+
+  <p><strong>Din Zotero-kontokoppling.</strong> När du loggar in med Zotero begär Rectoly en Zotero API-nyckel för att läsa och synkronisera ditt bibliotek, dokument och anteckningar. Denna nyckel lagras i enhetens Keychain och skickas aldrig till våra servrar — Rectoly kommunicerar direkt med Zoteros egen API.</p>
 
   <p><strong>Dina dokument och anteckningar.</strong> PDF-filer du öppnar, tillsammans med markeringar, understrykningar, klisterlappar och handskriven bläck som du lägger till, lagras på din enhet. Om du aktiverar iCloud-säkerhetskopiering säkerhetskopieras dessa data — och, om du separat väljer det, din handskrift — till ditt eget iCloud-konto via Apples CloudKit. Vi har inte tillgång till dessa data; de är krypterade och knutna till ditt Apple-ID.</p>
 
@@ -127,6 +129,7 @@
   <h2>Tredjepartstjänster</h2>
   <ul>
     <li><strong>Mendeley (Elsevier)</strong> — ditt referensbibliotek och dokumentsynkronisering</li>
+    <li><strong>Zotero (Corporation for Digital Scholarship)</strong> — ditt referensbibliotek och dokumentsynkronisering</li>
     <li><strong>Apple iCloud / CloudKit</strong> — valfri säkerhetskopiering, styrd av ditt Apple-ID</li>
     <li><strong>Sentry</strong> — rapportering av krascher och fel</li>
     <li><strong>TelemetryDeck</strong> — anonym produktanalys</li>
@@ -136,7 +139,7 @@
 
   <h2>Datalagring och radering</h2>
   <p>
-    Dina dokument, anteckningar och handskrift finns kvar på din enhet tills du raderar dem eller raderar appen. Om iCloud-säkerhetskopiering är aktiverad kan du stänga av den i Rectolys inställningar eller ta bort appens iCloud-data från enhetens Inställningar-app. Om du kopplar bort ditt Mendeley-konto tas den lokalt lagrade åtkomsttoken bort omedelbart.
+    Dina dokument, anteckningar och handskrift finns kvar på din enhet tills du raderar dem eller raderar appen. Om iCloud-säkerhetskopiering är aktiverad kan du stänga av den i Rectolys inställningar eller ta bort appens iCloud-data från enhetens Inställningar-app. Om du kopplar bort ditt Mendeley- eller Zotero-konto tas den lokalt lagrade åtkomsttoken eller API-nyckeln bort omedelbart.
   </p>
 
   <h2>Barns integritet</h2>

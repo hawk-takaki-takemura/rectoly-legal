@@ -145,6 +145,8 @@ def render(code: str, direction: str) -> str:
 
   <p><strong>{esc(t["mendeley_label"])}</strong> {esc(t["mendeley_body"])}</p>
 
+  <p><strong>{esc(t["zotero_label"])}</strong> {esc(t["zotero_body"])}</p>
+
   <p><strong>{esc(t["docs_label"])}</strong> {esc(t["docs_body"])}</p>
 
   <p><strong>{esc(t["crash_label"])}</strong> {esc(t["crash_body"])}</p>
@@ -163,6 +165,7 @@ def render(code: str, direction: str) -> str:
   <h2>{esc(t["h2_third"])}</h2>
   <ul>
     <li><strong>{esc(t["third_mendeley_name"])}</strong> — {esc(t["third_mendeley_desc"])}</li>
+    <li><strong>{esc(t["third_zotero_name"])}</strong> — {esc(t["third_zotero_desc"])}</li>
     <li><strong>{esc(t["third_icloud_name"])}</strong> — {esc(t["third_icloud_desc"])}</li>
     <li><strong>{esc(t["third_sentry_name"])}</strong> — {esc(t["third_sentry_desc"])}</li>
     <li><strong>{esc(t["third_telemetry_name"])}</strong> — {esc(t["third_telemetry_desc"])}</li>

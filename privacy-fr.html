@@ -76,7 +76,7 @@
 <body>
 <main>
   <h1>Rectoly — Politique de confidentialité</h1>
-  <p class="updated">Dernière mise à jour le 9 août 2026</p>
+  <p class="updated">Dernière mise à jour le 19 août 2026</p>
   <nav class="langs" aria-label="Langues">
   <div class="label">Langues</div>
   <a href="privacy-en.html">English</a>
@@ -102,12 +102,14 @@
 </nav>
 
   <p>
-    Hawk Eye (« nous ») développe Rectoly, une app iPad pour lire, annoter et synchroniser des PDF académiques avec Mendeley Reference Manager. Cette politique explique quelles informations Rectoly collecte, pourquoi et comment elles sont traitées.
+    Hawk Eye (« nous ») développe Rectoly, une app iPad pour lire, annoter et synchroniser des PDF académiques avec des gestionnaires de références tels que Mendeley Reference Manager et Zotero. Cette politique explique quelles informations Rectoly collecte, pourquoi et comment elles sont traitées.
   </p>
 
   <h2>Informations que nous collectons</h2>
 
   <p><strong>La connexion de votre compte Mendeley.</strong> Lorsque vous vous connectez avec Mendeley, Rectoly demande un jeton d’accès OAuth pour lire et synchroniser votre bibliothèque, vos documents et vos annotations. Ce jeton est stocké dans le Keychain de votre appareil et n’est jamais envoyé à nos serveurs — Rectoly communique directement avec l’API de Mendeley.</p>
+
+  <p><strong>La connexion de votre compte Zotero.</strong> Lorsque vous vous connectez avec Zotero, Rectoly demande une clé API Zotero pour lire et synchroniser votre bibliothèque, vos documents et vos annotations. Cette clé est stockée dans le Keychain de votre appareil et n’est jamais envoyée à nos serveurs — Rectoly communique directement avec l’API de Zotero.</p>
 
   <p><strong>Vos documents et annotations.</strong> Les PDF que vous ouvrez, ainsi que les surlignages, soulignements, notes autocollantes et toute encre manuscrite que vous ajoutez, sont stockés sur votre appareil. Si vous activez la sauvegarde iCloud, ces données — et, si vous y consentez séparément, votre écriture manuscrite — sont sauvegardées sur votre propre compte iCloud via CloudKit d’Apple. Nous n’avons pas accès à ces données ; elles sont chiffrées et limitées à votre Apple ID.</p>
 
@@ -127,6 +129,7 @@
   <h2>Services tiers</h2>
   <ul>
     <li><strong>Mendeley (Elsevier)</strong> — votre bibliothèque de références et la synchronisation des documents</li>
+    <li><strong>Zotero (Corporation for Digital Scholarship)</strong> — votre bibliothèque de références et la synchronisation des documents</li>
     <li><strong>Apple iCloud / CloudKit</strong> — sauvegarde facultative, régie par votre Apple ID</li>
     <li><strong>Sentry</strong> — rapports de plantages et d’erreurs</li>
     <li><strong>TelemetryDeck</strong> — analyses anonymes du produit</li>
@@ -136,7 +139,7 @@
 
   <h2>Conservation et suppression des données</h2>
   <p>
-    Vos documents, annotations et écriture manuscrite restent sur votre appareil jusqu’à ce que vous les supprimiez ou que vous supprimiez l’app. Si la sauvegarde iCloud est activée, vous pouvez la désactiver dans les réglages de Rectoly, ou supprimer les données iCloud de l’app depuis l’app Réglages de votre appareil. La déconnexion de votre compte Mendeley supprime immédiatement le jeton d’accès stocké localement.
+    Vos documents, annotations et écriture manuscrite restent sur votre appareil jusqu’à ce que vous les supprimiez ou que vous supprimiez l’app. Si la sauvegarde iCloud est activée, vous pouvez la désactiver dans les réglages de Rectoly, ou supprimer les données iCloud de l’app depuis l’app Réglages de votre appareil. La déconnexion de votre compte Mendeley ou Zotero supprime immédiatement le jeton d’accès ou la clé API stocké localement.
   </p>
 
   <h2>Confidentialité des enfants</h2>

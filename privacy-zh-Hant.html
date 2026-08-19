@@ -76,7 +76,7 @@
 <body>
 <main>
   <h1>Rectoly — 隱私權政策</h1>
-  <p class="updated">最後更新於 2026 年 8 月 9 日</p>
+  <p class="updated">最後更新於 2026 年 8 月 19 日</p>
   <nav class="langs" aria-label="語言">
   <div class="label">語言</div>
   <a href="privacy-en.html">English</a>
@@ -102,12 +102,14 @@
 </nav>
 
   <p>
-    Hawk Eye（以下稱「我們」）開發了 Rectoly，這是一款用於閱讀、註解學術 PDF，並與 Mendeley Reference Manager 同步的 iPad App。本政策說明 Rectoly 收集哪些資訊、為何收集以及如何處理。
+    Hawk Eye（以下稱「我們」）開發了 Rectoly，這是一款用於閱讀、註解學術 PDF，並與 Mendeley Reference Manager 和 Zotero 等文獻管理工具同步的 iPad App。本政策說明 Rectoly 收集哪些資訊、為何收集以及如何處理。
   </p>
 
   <h2>我們收集的資訊</h2>
 
   <p><strong>您的 Mendeley 帳戶連線。</strong> 當您使用 Mendeley 登入時，Rectoly 會請求 OAuth 存取權杖，以讀取並同步您的文獻庫、文件與註解。此權杖儲存在裝置的 Keychain 中，絕不會傳送到我們的伺服器——Rectoly 直接與 Mendeley 自身的 API 通訊。</p>
+
+  <p><strong>您的 Zotero 帳戶連線。</strong> 當您使用 Zotero 登入時，Rectoly 會請求 Zotero API 金鑰，以讀取並同步您的文獻庫、文件與註解。此金鑰儲存在裝置的 Keychain 中，絕不會傳送到我們的伺服器——Rectoly 直接與 Zotero 自身的 API 通訊。</p>
 
   <p><strong>您的文件與註解。</strong> 您開啟的 PDF，以及螢光標示、底線、便利貼，以及您新增的任何手寫墨跡，均儲存在您的裝置上。若啟用 iCloud 備份，這些資料——以及在您另行選擇加入時的手寫內容——會透過 Apple 的 CloudKit 備份到您自己的 iCloud 帳戶。我們無法存取這些資料；它們經過加密，並限定在您的 Apple ID 範圍內。</p>
 
@@ -127,6 +129,7 @@
   <h2>第三方服務</h2>
   <ul>
     <li><strong>Mendeley (Elsevier)</strong> — 您的參考文獻庫與文件同步</li>
+    <li><strong>Zotero (Corporation for Digital Scholarship)</strong> — 您的參考文獻庫與文件同步</li>
     <li><strong>Apple iCloud / CloudKit</strong> — 選用備份，由您的 Apple ID 管理</li>
     <li><strong>Sentry</strong> — 當機與錯誤回報</li>
     <li><strong>TelemetryDeck</strong> — 匿名產品分析</li>
@@ -136,7 +139,7 @@
 
   <h2>資料保留與刪除</h2>
   <p>
-    您的文件、註解與手寫內容會保留在裝置上，直到您刪除它們或刪除 App。若已啟用 iCloud 備份，可在 Rectoly 的設定中關閉，或在裝置的「設定」App 中刪除該 App 的 iCloud 資料。中斷連線 Mendeley 帳戶會立即移除本機儲存的存取權杖。
+    您的文件、註解與手寫內容會保留在裝置上，直到您刪除它們或刪除 App。若已啟用 iCloud 備份，可在 Rectoly 的設定中關閉，或在裝置的「設定」App 中刪除該 App 的 iCloud 資料。中斷連線 Mendeley 或 Zotero 帳戶會立即移除本機儲存的存取權杖或 API 金鑰。
   </p>
 
   <h2>兒童隱私</h2>

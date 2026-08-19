@@ -28,11 +28,11 @@ TRANSLATIONS = {
     "en": {
         "title": 'Rectoly — Privacy Policy',
         "h1": 'Rectoly — Privacy Policy',
-        "updated": 'Last updated August 9, 2026',
+        "updated": 'Last updated August 19, 2026',
         "intro": (
             'Hawk Eye ("we," "us") develops Rectoly, an iPad app for reading, annotating, and syncing'
-            ' academic PDFs with Mendeley Reference Manager. This policy explains what information'
-            ' Rectoly collects, why, and how it is handled.'
+            ' academic PDFs with reference managers including Mendeley Reference Manager and Zotero.'
+            ' This policy explains what information Rectoly collects, why, and how it is handled.'
         ),
         "h2_collect": 'Information we collect',
         "mendeley_label": 'Your Mendeley account connection.',
@@ -40,6 +40,12 @@ TRANSLATIONS = {
             'When you sign in with Mendeley, Rectoly requests an OAuth access token to read and sync'
             " your library, documents, and annotations. This token is stored in your device's Keychain"
             " and is never sent to our servers — Rectoly talks directly to Mendeley's own API."
+        ),
+        "zotero_label": 'Your Zotero account connection.',
+        "zotero_body": (
+            'When you sign in with Zotero, Rectoly requests a Zotero API key to read and sync'
+            " your library, documents, and annotations. This key is stored in your device's Keychain"
+            " and is never sent to our servers — Rectoly talks directly to Zotero's own API."
         ),
         "docs_label": 'Your documents and annotations.',
         "docs_body": (
@@ -80,6 +86,8 @@ TRANSLATIONS = {
         "h2_third": 'Third-party services',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'your reference library and document sync',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'your reference library and document sync',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'optional backup, governed by your Apple ID',
         "third_sentry_name": 'Sentry',
@@ -94,7 +102,8 @@ TRANSLATIONS = {
             'Your documents, annotations, and handwriting remain on your device until you delete them'
             " or delete the app. If iCloud backup is enabled, you can turn it off in Rectoly's"
             " settings, or remove the app's iCloud data from your device's Settings app. Disconnecting"
-            ' your Mendeley account removes the locally stored access token immediately.'
+            ' your Mendeley or Zotero account removes the locally stored access token or API key'
+            ' immediately.'
         ),
         "h2_children": "Children's privacy",
         "children_body": 'Rectoly is not directed at children under 13, and we do not knowingly collect information from them.',
@@ -111,16 +120,21 @@ TRANSLATIONS = {
     "ja": {
         "title": 'Rectoly — プライバシーポリシー',
         "h1": 'Rectoly — プライバシーポリシー',
-        "updated": '最終更新日 2026年8月9日',
+        "updated": '最終更新日 2026年8月19日',
         "intro": (
-            'Hawk Eye（以下「当社」）は、Mendeley Reference Manager と連携して学術 PDF の閲覧・注釈・同期を行う iPad アプリ Rectoly'
-            ' を開発しています。本ポリシーでは、Rectoly がどのような情報を収集し、なぜ収集し、どのように取り扱うかを説明します。'
+            'Hawk Eye（以下「当社」）は、Mendeley Reference Manager および Zotero と連携して学術 PDF の閲覧・注釈・同期を行う iPad'
+            ' アプリ Rectoly を開発しています。本ポリシーでは、Rectoly がどのような情報を収集し、なぜ収集し、どのように取り扱うかを説明します。'
         ),
         "h2_collect": '収集する情報',
         "mendeley_label": 'Mendeley アカウントとの連携。',
         "mendeley_body": (
             'Mendeley でサインインすると、Rectoly はライブラリ、文書、注釈の読み取りと同期のために OAuth アクセストークンを要求します。このトークンは端末の'
             ' Keychain に保存され、当社のサーバーに送信されることはありません。Rectoly は Mendeley 自身の API と直接通信します。'
+        ),
+        "zotero_label": 'Zotero アカウントとの連携。',
+        "zotero_body": (
+            'Zotero でサインインすると、Rectoly はライブラリ、文書、注釈の読み取りと同期のために Zotero API キーを要求します。このキーは端末の'
+            ' Keychain に保存され、当社のサーバーに送信されることはありません。Rectoly は Zotero 自身の API と直接通信します。'
         ),
         "docs_label": '文書と注釈。',
         "docs_body": (
@@ -150,6 +164,8 @@ TRANSLATIONS = {
         "h2_third": '第三者サービス',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": '参考文献ライブラリおよび文書の同期',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": '参考文献ライブラリおよび文書の同期',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": '任意のバックアップ（お客様の Apple ID により管理）',
         "third_sentry_name": 'Sentry',
@@ -162,8 +178,8 @@ TRANSLATIONS = {
         "h2_retention": 'データの保持と削除',
         "retention_body": (
             '文書、注釈、手書きデータは、削除するかアプリを削除するまで端末上に残ります。iCloud バックアップが有効な場合は、Rectoly'
-            ' の設定で無効にするか、端末の「設定」アプリからアプリの iCloud データを削除できます。Mendeley'
-            ' アカウントの連携を解除すると、ローカルに保存されたアクセストークンは直ちに削除されます。'
+            ' の設定で無効にするか、端末の「設定」アプリからアプリの iCloud データを削除できます。Mendeley または Zotero'
+            ' アカウントの連携を解除すると、ローカルに保存されたアクセストークンまたは API キーは直ちに削除されます。'
         ),
         "h2_children": 'お子様のプライバシー',
         "children_body": 'Rectoly は 13 歳未満のお子様を対象としておらず、知りながら情報を収集することはありません。',
@@ -177,11 +193,12 @@ TRANSLATIONS = {
     "de": {
         "title": 'Rectoly — Datenschutzerklärung',
         "h1": 'Rectoly — Datenschutzerklärung',
-        "updated": 'Zuletzt aktualisiert am 9. August 2026',
+        "updated": 'Zuletzt aktualisiert am 19. August 2026',
         "intro": (
-            'Hawk Eye („wir“, „uns“) entwickelt Rectoly, eine iPad-App zum Lesen, Annotieren und'
-            ' Synchronisieren akademischer PDFs mit Mendeley Reference Manager. Diese Erklärung'
-            ' beschreibt, welche Informationen Rectoly erhebt, warum und wie sie verarbeitet werden.'
+            'Hawk Eye („wir", „uns") entwickelt Rectoly, eine iPad-App zum Lesen, Annotieren und'
+            ' Synchronisieren akademischer PDFs mit Referenzmanagern wie Mendeley Reference Manager und'
+            ' Zotero. Diese Erklärung beschreibt, welche Informationen Rectoly erhebt, warum und wie sie'
+            ' verarbeitet werden.'
         ),
         "h2_collect": 'Informationen, die wir erheben',
         "mendeley_label": 'Ihre Mendeley-Kontoverbindung.',
@@ -190,6 +207,13 @@ TRANSLATIONS = {
             ' Bibliothek, Dokumente und Annotationen zu lesen und zu synchronisieren. Dieses Token'
             ' wird in der Keychain Ihres Geräts gespeichert und niemals an unsere Server gesendet —'
             ' Rectoly kommuniziert direkt mit der API von Mendeley.'
+        ),
+        "zotero_label": 'Ihre Zotero-Kontoverbindung.',
+        "zotero_body": (
+            'Wenn Sie sich mit Zotero anmelden, fordert Rectoly einen Zotero-API-Schlüssel an, um Ihre'
+            ' Bibliothek, Dokumente und Annotationen zu lesen und zu synchronisieren. Dieser Schlüssel'
+            ' wird in der Keychain Ihres Geräts gespeichert und niemals an unsere Server gesendet —'
+            ' Rectoly kommuniziert direkt mit der API von Zotero.'
         ),
         "docs_label": 'Ihre Dokumente und Annotationen.',
         "docs_body": (
@@ -232,6 +256,8 @@ TRANSLATIONS = {
         "h2_third": 'Drittanbieterdienste',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'Ihre Referenzbibliothek und Dokumentsynchronisierung',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'Ihre Referenzbibliothek und Dokumentsynchronisierung',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'optionale Sicherung, geregelt durch Ihre Apple ID',
         "third_sentry_name": 'Sentry',
@@ -249,8 +275,8 @@ TRANSLATIONS = {
             'Ihre Dokumente, Annotationen und Handschrift verbleiben auf Ihrem Gerät, bis Sie sie'
             ' löschen oder die App löschen. Wenn die iCloud-Sicherung aktiviert ist, können Sie sie in'
             ' den Einstellungen von Rectoly deaktivieren oder die iCloud-Daten der App in der'
-            ' Einstellungen-App Ihres Geräts entfernen. Das Trennen Ihres Mendeley-Kontos entfernt das'
-            ' lokal gespeicherte Zugriffstoken sofort.'
+            ' Einstellungen-App Ihres Geräts entfernen. Das Trennen Ihres Mendeley- oder'
+            ' Zotero-Kontos entfernt den lokal gespeicherten Zugriffstoken oder API-Schlüssel sofort.'
         ),
         "h2_children": 'Datenschutz von Kindern',
         "children_body": (
@@ -270,11 +296,11 @@ TRANSLATIONS = {
     "es": {
         "title": 'Rectoly — Política de privacidad',
         "h1": 'Rectoly — Política de privacidad',
-        "updated": 'Última actualización: 9 de agosto de 2026',
+        "updated": 'Última actualización: 19 de agosto de 2026',
         "intro": (
             'Hawk Eye ("nosotros") desarrolla Rectoly, una app para iPad para leer, anotar y'
-            ' sincronizar PDF académicos con Mendeley Reference Manager. Esta política explica qué'
-            ' información recopila Rectoly, por qué y cómo se trata.'
+            ' sincronizar PDF académicos con gestores de referencias como Mendeley Reference Manager y'
+            ' Zotero. Esta política explica qué información recopila Rectoly, por qué y cómo se trata.'
         ),
         "h2_collect": 'Información que recopilamos',
         "mendeley_label": 'La conexión de su cuenta de Mendeley.',
@@ -283,6 +309,13 @@ TRANSLATIONS = {
             ' sincronizar su biblioteca, documentos y anotaciones. Este token se almacena en el'
             ' Keychain de su dispositivo y nunca se envía a nuestros servidores: Rectoly se comunica'
             ' directamente con la API de Mendeley.'
+        ),
+        "zotero_label": 'La conexión de su cuenta de Zotero.',
+        "zotero_body": (
+            'Cuando inicia sesión con Zotero, Rectoly solicita una clave de API de Zotero para leer y'
+            ' sincronizar su biblioteca, documentos y anotaciones. Esta clave se almacena en el'
+            ' Keychain de su dispositivo y nunca se envía a nuestros servidores: Rectoly se comunica'
+            ' directamente con la API de Zotero.'
         ),
         "docs_label": 'Sus documentos y anotaciones.',
         "docs_body": (
@@ -324,6 +357,8 @@ TRANSLATIONS = {
         "h2_third": 'Servicios de terceros',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'su biblioteca de referencias y sincronización de documentos',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'su biblioteca de referencias y sincronización de documentos',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'copia de seguridad opcional, regida por su Apple ID',
         "third_sentry_name": 'Sentry',
@@ -338,8 +373,8 @@ TRANSLATIONS = {
             'Sus documentos, anotaciones y escritura a mano permanecen en su dispositivo hasta que'
             ' los elimine o elimine la app. Si la copia de seguridad de iCloud está activada, puede'
             ' desactivarla en los ajustes de Rectoly o eliminar los datos de iCloud de la app desde la'
-            ' app Ajustes del dispositivo. Al desconectar su cuenta de Mendeley se elimina de'
-            ' inmediato el token de acceso almacenado localmente.'
+            ' app Ajustes del dispositivo. Al desconectar su cuenta de Mendeley o Zotero se elimina de'
+            ' inmediato el token de acceso o la clave de API almacenados localmente.'
         ),
         "h2_children": 'Privacidad de menores',
         "children_body": 'Rectoly no está dirigido a menores de 13 años y no recopilamos conscientemente información de ellos.',
@@ -356,16 +391,21 @@ TRANSLATIONS = {
     "zh-Hans": {
         "title": 'Rectoly — 隐私政策',
         "h1": 'Rectoly — 隐私政策',
-        "updated": '最后更新于 2026 年 8 月 9 日',
+        "updated": '最后更新于 2026 年 8 月 19 日',
         "intro": (
-            'Hawk Eye（以下简称“我们”）开发了 Rectoly，这是一款用于阅读、批注学术 PDF，并与 Mendeley Reference Manager 同步的 iPad'
-            ' 应用。本政策说明 Rectoly 收集哪些信息、为何收集以及如何处理。'
+            'Hawk Eye（以下简称"我们"）开发了 Rectoly，这是一款用于阅读、批注学术 PDF，并与 Mendeley Reference Manager 和'
+            ' Zotero 等文献管理工具同步的 iPad 应用。本政策说明 Rectoly 收集哪些信息、为何收集以及如何处理。'
         ),
         "h2_collect": '我们收集的信息',
         "mendeley_label": '您的 Mendeley 账户连接。',
         "mendeley_body": (
             '当您使用 Mendeley 登录时，Rectoly 会请求 OAuth 访问令牌，以读取并同步您的文献库、文档和批注。该令牌保存在设备的 Keychain'
             ' 中，绝不会发送到我们的服务器——Rectoly 直接与 Mendeley 自身的 API 通信。'
+        ),
+        "zotero_label": '您的 Zotero 账户连接。',
+        "zotero_body": (
+            '当您使用 Zotero 登录时，Rectoly 会请求 Zotero API 密钥，以读取并同步您的文献库、文档和批注。该密钥保存在设备的 Keychain'
+            ' 中，绝不会发送到我们的服务器——Rectoly 直接与 Zotero 自身的 API 通信。'
         ),
         "docs_label": '您的文档与批注。',
         "docs_body": (
@@ -391,6 +431,8 @@ TRANSLATIONS = {
         "h2_third": '第三方服务',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": '您的参考文献库与文档同步',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": '您的参考文献库与文档同步',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": '可选备份，由您的 Apple ID 管理',
         "third_sentry_name": 'Sentry',
@@ -402,8 +444,8 @@ TRANSLATIONS = {
         "third_note": '上述各项均受其各自隐私政策约束，我们建议您查阅。',
         "h2_retention": '数据保留与删除',
         "retention_body": (
-            '您的文档、批注和手写内容会保留在设备上，直到您删除它们或删除应用。若已启用 iCloud 备份，可在 Rectoly 的设置中关闭，或在设备的“设置”应用中删除该应用的'
-            ' iCloud 数据。断开 Mendeley 账户会立即移除本地存储的访问令牌。'
+            '您的文档、批注和手写内容会保留在设备上，直到您删除它们或删除应用。若已启用 iCloud 备份，可在 Rectoly 的设置中关闭，或在设备的"设置"应用中删除该应用的'
+            ' iCloud 数据。断开 Mendeley 或 Zotero 账户会立即移除本地存储的访问令牌或 API 密钥。'
         ),
         "h2_children": '儿童隐私',
         "children_body": 'Rectoly 不面向 13 岁以下儿童，我们也不会故意收集他们的信息。',
@@ -417,16 +459,21 @@ TRANSLATIONS = {
     "zh-Hant": {
         "title": 'Rectoly — 隱私權政策',
         "h1": 'Rectoly — 隱私權政策',
-        "updated": '最後更新於 2026 年 8 月 9 日',
+        "updated": '最後更新於 2026 年 8 月 19 日',
         "intro": (
-            'Hawk Eye（以下稱「我們」）開發了 Rectoly，這是一款用於閱讀、註解學術 PDF，並與 Mendeley Reference Manager 同步的 iPad'
-            ' App。本政策說明 Rectoly 收集哪些資訊、為何收集以及如何處理。'
+            'Hawk Eye（以下稱「我們」）開發了 Rectoly，這是一款用於閱讀、註解學術 PDF，並與 Mendeley Reference Manager 和'
+            ' Zotero 等文獻管理工具同步的 iPad App。本政策說明 Rectoly 收集哪些資訊、為何收集以及如何處理。'
         ),
         "h2_collect": '我們收集的資訊',
         "mendeley_label": '您的 Mendeley 帳戶連線。',
         "mendeley_body": (
             '當您使用 Mendeley 登入時，Rectoly 會請求 OAuth 存取權杖，以讀取並同步您的文獻庫、文件與註解。此權杖儲存在裝置的 Keychain'
             ' 中，絕不會傳送到我們的伺服器——Rectoly 直接與 Mendeley 自身的 API 通訊。'
+        ),
+        "zotero_label": '您的 Zotero 帳戶連線。',
+        "zotero_body": (
+            '當您使用 Zotero 登入時，Rectoly 會請求 Zotero API 金鑰，以讀取並同步您的文獻庫、文件與註解。此金鑰儲存在裝置的 Keychain'
+            ' 中，絕不會傳送到我們的伺服器——Rectoly 直接與 Zotero 自身的 API 通訊。'
         ),
         "docs_label": '您的文件與註解。',
         "docs_body": (
@@ -452,6 +499,8 @@ TRANSLATIONS = {
         "h2_third": '第三方服務',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": '您的參考文獻庫與文件同步',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": '您的參考文獻庫與文件同步',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": '選用備份，由您的 Apple ID 管理',
         "third_sentry_name": 'Sentry',
@@ -464,7 +513,7 @@ TRANSLATIONS = {
         "h2_retention": '資料保留與刪除',
         "retention_body": (
             '您的文件、註解與手寫內容會保留在裝置上，直到您刪除它們或刪除 App。若已啟用 iCloud 備份，可在 Rectoly 的設定中關閉，或在裝置的「設定」App 中刪除該'
-            ' App 的 iCloud 資料。中斷連線 Mendeley 帳戶會立即移除本機儲存的存取權杖。'
+            ' App 的 iCloud 資料。中斷連線 Mendeley 或 Zotero 帳戶會立即移除本機儲存的存取權杖或 API 金鑰。'
         ),
         "h2_children": '兒童隱私',
         "children_body": 'Rectoly 不針對 13 歲以下兒童，我們也不會故意收集他們的資訊。',
@@ -478,11 +527,12 @@ TRANSLATIONS = {
     "fr": {
         "title": 'Rectoly — Politique de confidentialité',
         "h1": 'Rectoly — Politique de confidentialité',
-        "updated": 'Dernière mise à jour le 9 août 2026',
+        "updated": 'Dernière mise à jour le 19 août 2026',
         "intro": (
             'Hawk Eye (« nous ») développe Rectoly, une app iPad pour lire, annoter et synchroniser'
-            ' des PDF académiques avec Mendeley Reference Manager. Cette politique explique quelles'
-            ' informations Rectoly collecte, pourquoi et comment elles sont traitées.'
+            ' des PDF académiques avec des gestionnaires de références tels que Mendeley Reference'
+            ' Manager et Zotero. Cette politique explique quelles informations Rectoly collecte,'
+            ' pourquoi et comment elles sont traitées.'
         ),
         "h2_collect": 'Informations que nous collectons',
         "mendeley_label": 'La connexion de votre compte Mendeley.',
@@ -491,6 +541,13 @@ TRANSLATIONS = {
             ' lire et synchroniser votre bibliothèque, vos documents et vos annotations. Ce jeton est'
             ' stocké dans le Keychain de votre appareil et n’est jamais envoyé à nos serveurs —'
             ' Rectoly communique directement avec l’API de Mendeley.'
+        ),
+        "zotero_label": 'La connexion de votre compte Zotero.',
+        "zotero_body": (
+            'Lorsque vous vous connectez avec Zotero, Rectoly demande une clé API Zotero pour lire et'
+            ' synchroniser votre bibliothèque, vos documents et vos annotations. Cette clé est stockée'
+            ' dans le Keychain de votre appareil et n’est jamais envoyée à nos serveurs — Rectoly'
+            ' communique directement avec l’API de Zotero.'
         ),
         "docs_label": 'Vos documents et annotations.',
         "docs_body": (
@@ -535,6 +592,8 @@ TRANSLATIONS = {
         "h2_third": 'Services tiers',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'votre bibliothèque de références et la synchronisation des documents',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'votre bibliothèque de références et la synchronisation des documents',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'sauvegarde facultative, régie par votre Apple ID',
         "third_sentry_name": 'Sentry',
@@ -553,7 +612,8 @@ TRANSLATIONS = {
             ' que vous les supprimiez ou que vous supprimiez l’app. Si la sauvegarde iCloud est'
             ' activée, vous pouvez la désactiver dans les réglages de Rectoly, ou supprimer les'
             ' données iCloud de l’app depuis l’app Réglages de votre appareil. La déconnexion de votre'
-            ' compte Mendeley supprime immédiatement le jeton d’accès stocké localement.'
+            ' compte Mendeley ou Zotero supprime immédiatement le jeton d’accès ou la clé API stocké'
+            ' localement.'
         ),
         "h2_children": 'Confidentialité des enfants',
         "children_body": (
@@ -573,11 +633,12 @@ TRANSLATIONS = {
     "it": {
         "title": 'Rectoly — Informativa sulla privacy',
         "h1": 'Rectoly — Informativa sulla privacy',
-        "updated": 'Ultimo aggiornamento: 9 agosto 2026',
+        "updated": 'Ultimo aggiornamento: 19 agosto 2026',
         "intro": (
             'Hawk Eye ("noi") sviluppa Rectoly, un\'app per iPad per leggere, annotare e sincronizzare'
-            ' PDF accademici con Mendeley Reference Manager. Questa informativa spiega quali'
-            ' informazioni Rectoly raccoglie, perché e come vengono gestite.'
+            ' PDF accademici con gestori di riferimenti come Mendeley Reference Manager e Zotero.'
+            ' Questa informativa spiega quali informazioni Rectoly raccoglie, perché e come vengono'
+            ' gestite.'
         ),
         "h2_collect": 'Informazioni che raccogliamo',
         "mendeley_label": 'La connessione del tuo account Mendeley.',
@@ -586,6 +647,13 @@ TRANSLATIONS = {
             ' sincronizzare la tua libreria, i documenti e le annotazioni. Questo token viene'
             ' memorizzato nel Keychain del tuo dispositivo e non viene mai inviato ai nostri server:'
             " Rectoly comunica direttamente con l'API di Mendeley."
+        ),
+        "zotero_label": 'La connessione del tuo account Zotero.',
+        "zotero_body": (
+            'Quando accedi con Zotero, Rectoly richiede una chiave API Zotero per leggere e'
+            ' sincronizzare la tua libreria, i documenti e le annotazioni. Questa chiave viene'
+            ' memorizzata nel Keychain del tuo dispositivo e non viene mai inviata ai nostri server:'
+            " Rectoly comunica direttamente con l'API di Zotero."
         ),
         "docs_label": 'I tuoi documenti e le annotazioni.',
         "docs_body": (
@@ -629,6 +697,8 @@ TRANSLATIONS = {
         "h2_third": 'Servizi di terze parti',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'la tua libreria di riferimenti e la sincronizzazione dei documenti',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'la tua libreria di riferimenti e la sincronizzazione dei documenti',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'backup opzionale, regolato dal tuo Apple ID',
         "third_sentry_name": 'Sentry',
@@ -643,8 +713,8 @@ TRANSLATIONS = {
             'I tuoi documenti, annotazioni e scrittura a mano rimangono sul tuo dispositivo finché'
             " non li elimini o non elimini l'app. Se il backup di iCloud è attivato, puoi disattivarlo"
             " nelle impostazioni di Rectoly oppure rimuovere i dati iCloud dell'app dall'app"
-            ' Impostazioni del dispositivo. La disconnessione del tuo account Mendeley rimuove'
-            ' immediatamente il token di accesso memorizzato localmente.'
+            ' Impostazioni del dispositivo. La disconnessione del tuo account Mendeley o Zotero'
+            ' rimuove immediatamente il token di accesso o la chiave API memorizzati localmente.'
         ),
         "h2_children": 'Privacy dei minori',
         "children_body": 'Rectoly non è destinato a minori di 13 anni e non raccogliamo consapevolmente informazioni da loro.',
@@ -661,11 +731,12 @@ TRANSLATIONS = {
     "da": {
         "title": 'Rectoly — Privatlivspolitik',
         "h1": 'Rectoly — Privatlivspolitik',
-        "updated": 'Senest opdateret 9. august 2026',
+        "updated": 'Senest opdateret 19. august 2026',
         "intro": (
             'Hawk Eye ("vi", "os") udvikler Rectoly, en iPad-app til at læse, annotere og'
-            " synkronisere akademiske PDF'er med Mendeley Reference Manager. Denne politik forklarer,"
-            ' hvilke oplysninger Rectoly indsamler, hvorfor og hvordan de håndteres.'
+            " synkronisere akademiske PDF'er med referencehåndteringsprogrammer som Mendeley Reference"
+            ' Manager og Zotero. Denne politik forklarer, hvilke oplysninger Rectoly indsamler,'
+            ' hvorfor og hvordan de håndteres.'
         ),
         "h2_collect": 'Oplysninger, vi indsamler',
         "mendeley_label": 'Din Mendeley-kontoforbindelse.',
@@ -673,6 +744,13 @@ TRANSLATIONS = {
             'Når du logger ind med Mendeley, anmoder Rectoly om et OAuth-adgangstoken for at læse og'
             ' synkronisere dit bibliotek, dokumenter og annotationer. Dette token gemmes i enhedens'
             ' Keychain og sendes aldrig til vores servere — Rectoly kommunikerer direkte med Mendeleys'
+            ' egen API.'
+        ),
+        "zotero_label": 'Din Zotero-kontoforbindelse.',
+        "zotero_body": (
+            'Når du logger ind med Zotero, anmoder Rectoly om en Zotero API-nøgle for at læse og'
+            ' synkronisere dit bibliotek, dokumenter og annotationer. Denne nøgle gemmes i enhedens'
+            ' Keychain og sendes aldrig til vores servere — Rectoly kommunikerer direkte med Zoteros'
             ' egen API.'
         ),
         "docs_label": 'Dine dokumenter og annotationer.',
@@ -714,7 +792,9 @@ TRANSLATIONS = {
         ),
         "h2_third": 'Tredjepartstjenester',
         "third_mendeley_name": 'Mendeley (Elsevier)',
-        "third_mendeley_desc": 'dit referencelbibliotek og dokumentsynkronisering',
+        "third_mendeley_desc": 'dit referencebibliotek og dokumentsynkronisering',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'dit referencebibliotek og dokumentsynkronisering',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'valgfri sikkerhedskopiering, styret af dit Apple ID',
         "third_sentry_name": 'Sentry',
@@ -729,8 +809,8 @@ TRANSLATIONS = {
             'Dine dokumenter, annotationer og håndskrift forbliver på din enhed, indtil du sletter'
             ' dem eller sletter appen. Hvis iCloud-sikkerhedskopiering er aktiveret, kan du slå den'
             ' fra i Rectolys indstillinger eller fjerne appens iCloud-data fra enhedens'
-            ' Indstillinger-app. Frakobling af din Mendeley-konto fjerner straks det lokalt gemte'
-            ' adgangstoken.'
+            ' Indstillinger-app. Frakobling af din Mendeley- eller Zotero-konto fjerner straks det'
+            ' lokalt gemte adgangstoken eller API-nøglen.'
         ),
         "h2_children": 'Børns privatliv',
         "children_body": 'Rectoly er ikke rettet mod børn under 13 år, og vi indsamler ikke bevidst oplysninger fra dem.',
@@ -747,16 +827,21 @@ TRANSLATIONS = {
     "ko": {
         "title": 'Rectoly — 개인정보 처리방침',
         "h1": 'Rectoly — 개인정보 처리방침',
-        "updated": '최종 업데이트: 2026년 8월 9일',
+        "updated": '최종 업데이트: 2026년 8월 19일',
         "intro": (
-            'Hawk Eye(“당사”)는 Mendeley Reference Manager와 함께 학술 PDF를 읽고, 주석을 달고, 동기화하는 iPad 앱 Rectoly를'
-            ' 개발합니다. 본 방침은 Rectoly가 어떤 정보를 수집하는지, 왜 수집하는지, 어떻게 처리하는지를 설명합니다.'
+            'Hawk Eye("당사")는 Mendeley Reference Manager 및 Zotero 등 참고문헌 관리 도구와 함께 학술 PDF를 읽고, 주석을 달고,'
+            ' 동기화하는 iPad 앱 Rectoly를 개발합니다. 본 방침은 Rectoly가 어떤 정보를 수집하는지, 왜 수집하는지, 어떻게 처리하는지를 설명합니다.'
         ),
         "h2_collect": '수집하는 정보',
         "mendeley_label": 'Mendeley 계정 연결.',
         "mendeley_body": (
             'Mendeley로 로그인하면 Rectoly는 라이브러리, 문서, 주석을 읽고 동기화하기 위해 OAuth 액세스 토큰을 요청합니다. 이 토큰은 기기의'
             ' Keychain에 저장되며 당사 서버로 전송되지 않습니다. Rectoly는 Mendeley 자체의 API와 직접 통신합니다.'
+        ),
+        "zotero_label": 'Zotero 계정 연결.',
+        "zotero_body": (
+            'Zotero로 로그인하면 Rectoly는 라이브러리, 문서, 주석을 읽고 동기화하기 위해 Zotero API 키를 요청합니다. 이 키는 기기의'
+            ' Keychain에 저장되며 당사 서버로 전송되지 않습니다. Rectoly는 Zotero 자체의 API와 직접 통신합니다.'
         ),
         "docs_label": '문서 및 주석.',
         "docs_body": (
@@ -787,6 +872,8 @@ TRANSLATIONS = {
         "h2_third": '제3자 서비스',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": '참고문헌 라이브러리 및 문서 동기화',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": '참고문헌 라이브러리 및 문서 동기화',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": '선택적 백업(Apple ID로 관리)',
         "third_sentry_name": 'Sentry',
@@ -799,7 +886,8 @@ TRANSLATIONS = {
         "h2_retention": '데이터 보관 및 삭제',
         "retention_body": (
             '문서, 주석, 손글씨는 삭제하거나 앱을 삭제할 때까지 기기에 남습니다. iCloud 백업이 켜져 있으면 Rectoly 설정에서 끄거나 기기의 설정 앱에서 해당'
-            ' 앱의 iCloud 데이터를 제거할 수 있습니다. Mendeley 계정 연결을 해제하면 로컬에 저장된 액세스 토큰이 즉시 제거됩니다.'
+            ' 앱의 iCloud 데이터를 제거할 수 있습니다. Mendeley 또는 Zotero 계정 연결을 해제하면 로컬에 저장된 액세스 토큰 또는 API 키가 즉시'
+            ' 제거됩니다.'
         ),
         "h2_children": '아동의 개인정보',
         "children_body": 'Rectoly는 13세 미만 아동을 대상으로 하지 않으며, 고의로 아동의 정보를 수집하지 않습니다.',
@@ -813,11 +901,12 @@ TRANSLATIONS = {
     "pt-BR": {
         "title": 'Rectoly — Política de Privacidade',
         "h1": 'Rectoly — Política de Privacidade',
-        "updated": 'Última atualização em 9 de agosto de 2026',
+        "updated": 'Última atualização em 19 de agosto de 2026',
         "intro": (
             'A Hawk Eye ("nós") desenvolve o Rectoly, um app para iPad para ler, anotar e sincronizar'
-            ' PDFs acadêmicos com o Mendeley Reference Manager. Esta política explica quais'
-            ' informações o Rectoly coleta, por quê e como elas são tratadas.'
+            ' PDFs acadêmicos com gerenciadores de referências como o Mendeley Reference Manager e o'
+            ' Zotero. Esta política explica quais informações o Rectoly coleta, por quê e como elas'
+            ' são tratadas.'
         ),
         "h2_collect": 'Informações que coletamos',
         "mendeley_label": 'A conexão da sua conta Mendeley.',
@@ -826,6 +915,13 @@ TRANSLATIONS = {
             ' sincronizar sua biblioteca, documentos e anotações. Esse token é armazenado no Keychain'
             ' do seu dispositivo e nunca é enviado aos nossos servidores — o Rectoly se comunica'
             ' diretamente com a API do próprio Mendeley.'
+        ),
+        "zotero_label": 'A conexão da sua conta Zotero.',
+        "zotero_body": (
+            'Ao entrar com o Zotero, o Rectoly solicita uma chave de API do Zotero para ler e'
+            ' sincronizar sua biblioteca, documentos e anotações. Essa chave é armazenada no Keychain'
+            ' do seu dispositivo e nunca é enviada aos nossos servidores — o Rectoly se comunica'
+            ' diretamente com a API do próprio Zotero.'
         ),
         "docs_label": 'Seus documentos e anotações.',
         "docs_body": (
@@ -867,6 +963,8 @@ TRANSLATIONS = {
         "h2_third": 'Serviços de terceiros',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'sua biblioteca de referências e sincronização de documentos',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'sua biblioteca de referências e sincronização de documentos',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'backup opcional, regido pelo seu Apple ID',
         "third_sentry_name": 'Sentry',
@@ -881,8 +979,8 @@ TRANSLATIONS = {
             'Seus documentos, anotações e escrita à mão permanecem no seu dispositivo até que você os'
             ' exclua ou exclua o app. Se o backup do iCloud estiver ativado, você pode desativá-lo nas'
             ' configurações do Rectoly ou remover os dados do iCloud do app no app Ajustes do'
-            ' dispositivo. Desconectar sua conta Mendeley remove imediatamente o token de acesso'
-            ' armazenado localmente.'
+            ' dispositivo. Desconectar sua conta Mendeley ou Zotero remove imediatamente o token de'
+            ' acesso ou a chave de API armazenados localmente.'
         ),
         "h2_children": 'Privacidade de crianças',
         "children_body": (
@@ -902,11 +1000,12 @@ TRANSLATIONS = {
     "nl": {
         "title": 'Rectoly — Privacybeleid',
         "h1": 'Rectoly — Privacybeleid',
-        "updated": 'Laatst bijgewerkt op 9 augustus 2026',
+        "updated": 'Laatst bijgewerkt op 19 augustus 2026',
         "intro": (
             'Hawk Eye ("wij", "ons") ontwikkelt Rectoly, een iPad-app voor het lezen, annoteren en'
-            " synchroniseren van academische PDF's met Mendeley Reference Manager. Dit beleid legt uit"
-            ' welke informatie Rectoly verzamelt, waarom en hoe deze wordt verwerkt.'
+            " synchroniseren van academische PDF's met referentiebeheerders zoals Mendeley Reference"
+            ' Manager en Zotero. Dit beleid legt uit welke informatie Rectoly verzamelt, waarom en hoe'
+            ' deze wordt verwerkt.'
         ),
         "h2_collect": 'Informatie die we verzamelen',
         "mendeley_label": 'Uw Mendeley-accountkoppeling.',
@@ -915,6 +1014,13 @@ TRANSLATIONS = {
             ' bibliotheek, documenten en annotaties te lezen en te synchroniseren. Dit token wordt'
             ' opgeslagen in de Keychain van uw apparaat en wordt nooit naar onze servers gestuurd —'
             ' Rectoly communiceert rechtstreeks met de API van Mendeley.'
+        ),
+        "zotero_label": 'Uw Zotero-accountkoppeling.',
+        "zotero_body": (
+            'Wanneer u zich aanmeldt met Zotero, vraagt Rectoly een Zotero API-sleutel aan om uw'
+            ' bibliotheek, documenten en annotaties te lezen en te synchroniseren. Deze sleutel wordt'
+            ' opgeslagen in de Keychain van uw apparaat en wordt nooit naar onze servers gestuurd —'
+            ' Rectoly communiceert rechtstreeks met de API van Zotero.'
         ),
         "docs_label": 'Uw documenten en annotaties.',
         "docs_body": (
@@ -956,6 +1062,8 @@ TRANSLATIONS = {
         "h2_third": 'Diensten van derden',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'uw referentiebibliotheek en documentsynchronisatie',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'uw referentiebibliotheek en documentsynchronisatie',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'optionele back-up, beheerd via uw Apple ID',
         "third_sentry_name": 'Sentry',
@@ -970,8 +1078,8 @@ TRANSLATIONS = {
             'Uw documenten, annotaties en handschrift blijven op uw apparaat totdat u ze verwijdert'
             ' of de app verwijdert. Als iCloud-back-up is ingeschakeld, kunt u deze uitschakelen in de'
             ' instellingen van Rectoly, of de iCloud-gegevens van de app verwijderen via de'
-            ' Instellingen-app van uw apparaat. Het ontkoppelen van uw Mendeley-account verwijdert het'
-            ' lokaal opgeslagen toegangstoken onmiddellijk.'
+            ' Instellingen-app van uw apparaat. Het ontkoppelen van uw Mendeley- of Zotero-account'
+            ' verwijdert het lokaal opgeslagen toegangstoken of de API-sleutel onmiddellijk.'
         ),
         "h2_children": 'Privacy van kinderen',
         "children_body": 'Rectoly is niet gericht op kinderen onder de 13, en wij verzamelen niet bewust informatie van hen.',
@@ -988,11 +1096,12 @@ TRANSLATIONS = {
     "sv": {
         "title": 'Rectoly — Integritetspolicy',
         "h1": 'Rectoly — Integritetspolicy',
-        "updated": 'Senast uppdaterad den 9 augusti 2026',
+        "updated": 'Senast uppdaterad den 19 augusti 2026',
         "intro": (
             'Hawk Eye ("vi", "oss") utvecklar Rectoly, en iPad-app för att läsa, annotera och'
-            ' synkronisera akademiska PDF-filer med Mendeley Reference Manager. Denna policy förklarar'
-            ' vilken information Rectoly samlar in, varför och hur den hanteras.'
+            ' synkronisera akademiska PDF-filer med referenshanterare som Mendeley Reference Manager'
+            ' och Zotero. Denna policy förklarar vilken information Rectoly samlar in, varför och hur'
+            ' den hanteras.'
         ),
         "h2_collect": 'Information vi samlar in',
         "mendeley_label": 'Din Mendeley-kontokoppling.',
@@ -1001,6 +1110,13 @@ TRANSLATIONS = {
             ' synkronisera ditt bibliotek, dokument och anteckningar. Denna token lagras i enhetens'
             ' Keychain och skickas aldrig till våra servrar — Rectoly kommunicerar direkt med'
             ' Mendeleys egen API.'
+        ),
+        "zotero_label": 'Din Zotero-kontokoppling.',
+        "zotero_body": (
+            'När du loggar in med Zotero begär Rectoly en Zotero API-nyckel för att läsa och'
+            ' synkronisera ditt bibliotek, dokument och anteckningar. Denna nyckel lagras i enhetens'
+            ' Keychain och skickas aldrig till våra servrar — Rectoly kommunicerar direkt med Zoteros'
+            ' egen API.'
         ),
         "docs_label": 'Dina dokument och anteckningar.',
         "docs_body": (
@@ -1042,6 +1158,8 @@ TRANSLATIONS = {
         "h2_third": 'Tredjepartstjänster',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'ditt referensbibliotek och dokumentsynkronisering',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'ditt referensbibliotek och dokumentsynkronisering',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'valfri säkerhetskopiering, styrd av ditt Apple-ID',
         "third_sentry_name": 'Sentry',
@@ -1056,8 +1174,8 @@ TRANSLATIONS = {
             'Dina dokument, anteckningar och handskrift finns kvar på din enhet tills du raderar dem'
             ' eller raderar appen. Om iCloud-säkerhetskopiering är aktiverad kan du stänga av den i'
             ' Rectolys inställningar eller ta bort appens iCloud-data från enhetens Inställningar-app.'
-            ' Om du kopplar bort ditt Mendeley-konto tas den lokalt lagrade åtkomsttoken bort'
-            ' omedelbart.'
+            ' Om du kopplar bort ditt Mendeley- eller Zotero-konto tas den lokalt lagrade'
+            ' åtkomsttoken eller API-nyckeln bort omedelbart.'
         ),
         "h2_children": 'Barns integritet',
         "children_body": 'Rectoly riktar sig inte till barn under 13 år, och vi samlar inte medvetet in information från dem.',
@@ -1074,11 +1192,12 @@ TRANSLATIONS = {
     "nb": {
         "title": 'Rectoly — Personvernerklæring',
         "h1": 'Rectoly — Personvernerklæring',
-        "updated": 'Sist oppdatert 9. august 2026',
+        "updated": 'Sist oppdatert 19. august 2026',
         "intro": (
             'Hawk Eye ("vi", "oss") utvikler Rectoly, en iPad-app for å lese, annotere og'
-            ' synkronisere akademiske PDF-er med Mendeley Reference Manager. Denne erklæringen'
-            ' forklarer hvilken informasjon Rectoly samler inn, hvorfor og hvordan den håndteres.'
+            ' synkronisere akademiske PDF-er med referansehåndterere som Mendeley Reference Manager og'
+            ' Zotero. Denne erklæringen forklarer hvilken informasjon Rectoly samler inn, hvorfor og'
+            ' hvordan den håndteres.'
         ),
         "h2_collect": 'Informasjon vi samler inn',
         "mendeley_label": 'Tilkoblingen til Mendeley-kontoen din.',
@@ -1087,6 +1206,13 @@ TRANSLATIONS = {
             ' synkronisere biblioteket, dokumentene og annotasjonene dine. Dette tokenet lagres i'
             ' enhetens Keychain og sendes aldri til serverne våre — Rectoly kommuniserer direkte med'
             ' Mendeleys egen API.'
+        ),
+        "zotero_label": 'Tilkoblingen til Zotero-kontoen din.',
+        "zotero_body": (
+            'Når du logger inn med Zotero, ber Rectoly om en Zotero API-nøkkel for å lese og'
+            ' synkronisere biblioteket, dokumentene og annotasjonene dine. Denne nøkkelen lagres i'
+            ' enhetens Keychain og sendes aldri til serverne våre — Rectoly kommuniserer direkte med'
+            ' Zoteros egen API.'
         ),
         "docs_label": 'Dokumentene og annotasjonene dine.',
         "docs_body": (
@@ -1127,6 +1253,8 @@ TRANSLATIONS = {
         "h2_third": 'Tredjepartstjenester',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'referansebiblioteket ditt og dokumentsynkronisering',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'referansebiblioteket ditt og dokumentsynkronisering',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'valgfri sikkerhetskopiering, styrt av Apple-ID-en din',
         "third_sentry_name": 'Sentry',
@@ -1141,8 +1269,8 @@ TRANSLATIONS = {
             'Dokumentene, annotasjonene og håndskriften din forblir på enheten din til du sletter dem'
             ' eller sletter appen. Hvis iCloud-sikkerhetskopiering er aktivert, kan du slå den av i'
             ' innstillingene til Rectoly, eller fjerne appens iCloud-data fra enhetens'
-            ' Innstillinger-app. Frakobling av Mendeley-kontoen din fjerner umiddelbart'
-            ' tilgangstokenet som er lagret lokalt.'
+            ' Innstillinger-app. Frakobling av Mendeley- eller Zotero-kontoen din fjerner umiddelbart'
+            ' tilgangstokenet eller API-nøkkelen som er lagret lokalt.'
         ),
         "h2_children": 'Barns personvern',
         "children_body": 'Rectoly er ikke rettet mot barn under 13 år, og vi samler ikke bevisst inn informasjon fra dem.',
@@ -1159,12 +1287,12 @@ TRANSLATIONS = {
     "pl": {
         "title": 'Rectoly — Polityka prywatności',
         "h1": 'Rectoly — Polityka prywatności',
-        "updated": 'Ostatnia aktualizacja: 9 sierpnia 2026',
+        "updated": 'Ostatnia aktualizacja: 19 sierpnia 2026',
         "intro": (
-            'Hawk Eye („my”) rozwija Rectoly — aplikację na iPada do czytania, annotowania i'
-            ' synchronizowania akademickich plików PDF z Mendeley Reference Manager. Niniejsza'
-            ' polityka wyjaśnia, jakie informacje zbiera Rectoly, dlaczego i w jaki sposób są one'
-            ' przetwarzane.'
+            'Hawk Eye („my") rozwija Rectoly — aplikację na iPada do czytania, annotowania i'
+            ' synchronizowania akademickich plików PDF z menedżerami referencji, takimi jak Mendeley'
+            ' Reference Manager i Zotero. Niniejsza polityka wyjaśnia, jakie informacje zbiera'
+            ' Rectoly, dlaczego i w jaki sposób są one przetwarzane.'
         ),
         "h2_collect": 'Informacje, które zbieramy',
         "mendeley_label": 'Połączenie z kontem Mendeley.',
@@ -1173,6 +1301,13 @@ TRANSLATIONS = {
             ' synchronizować Twoją bibliotekę, dokumenty i adnotacje. Token jest przechowywany w'
             ' Keychain na Twoim urządzeniu i nigdy nie jest wysyłany na nasze serwery — Rectoly'
             ' komunikuje się bezpośrednio z API Mendeley.'
+        ),
+        "zotero_label": 'Połączenie z kontem Zotero.',
+        "zotero_body": (
+            'Gdy logujesz się przez Zotero, Rectoly prosi o klucz API Zotero, aby odczytywać i'
+            ' synchronizować Twoją bibliotekę, dokumenty i adnotacje. Klucz jest przechowywany w'
+            ' Keychain na Twoim urządzeniu i nigdy nie jest wysyłany na nasze serwery — Rectoly'
+            ' komunikuje się bezpośrednio z API Zotero.'
         ),
         "docs_label": 'Twoje dokumenty i adnotacje.',
         "docs_body": (
@@ -1214,6 +1349,8 @@ TRANSLATIONS = {
         "h2_third": 'Usługi stron trzecich',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'Twoja biblioteka referencyjna i synchronizacja dokumentów',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'Twoja biblioteka referencyjna i synchronizacja dokumentów',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'opcjonalna kopia zapasowa, zarządzana przez Twoje Apple ID',
         "third_sentry_name": 'Sentry',
@@ -1228,8 +1365,8 @@ TRANSLATIONS = {
             'Twoje dokumenty, adnotacje i odręczny zapis pozostają na urządzeniu, dopóki ich nie'
             ' usuniesz lub nie usuniesz aplikacji. Jeśli kopia zapasowa iCloud jest włączona, możesz'
             ' ją wyłączyć w ustawieniach Rectoly lub usunąć dane iCloud aplikacji w aplikacji'
-            ' Ustawienia na urządzeniu. Odłączenie konta Mendeley natychmiast usuwa lokalnie'
-            ' przechowywany token dostępu.'
+            ' Ustawienia na urządzeniu. Odłączenie konta Mendeley lub Zotero natychmiast usuwa'
+            ' lokalnie przechowywany token dostępu lub klucz API.'
         ),
         "h2_children": 'Prywatność dzieci',
         "children_body": (
@@ -1249,11 +1386,12 @@ TRANSLATIONS = {
     "ru": {
         "title": 'Rectoly — Политика конфиденциальности',
         "h1": 'Rectoly — Политика конфиденциальности',
-        "updated": 'Последнее обновление: 9 августа 2026 г.',
+        "updated": 'Последнее обновление: 19 августа 2026 г.',
         "intro": (
             'Hawk Eye («мы») разрабатывает Rectoly — приложение для iPad для чтения, аннотирования и'
-            ' синхронизации академических PDF с Mendeley Reference Manager. Эта политика объясняет,'
-            ' какую информацию собирает Rectoly, зачем и как она обрабатывается.'
+            ' синхронизации академических PDF с менеджерами ссылок, включая Mendeley Reference Manager'
+            ' и Zotero. Эта политика объясняет, какую информацию собирает Rectoly, зачем и как она'
+            ' обрабатывается.'
         ),
         "h2_collect": 'Информация, которую мы собираем',
         "mendeley_label": 'Подключение вашей учётной записи Mendeley.',
@@ -1262,6 +1400,13 @@ TRANSLATIONS = {
             ' синхронизации вашей библиотеки, документов и аннотаций. Этот токен хранится в Keychain'
             ' на вашем устройстве и никогда не отправляется на наши серверы — Rectoly взаимодействует'
             ' напрямую с API самого Mendeley.'
+        ),
+        "zotero_label": 'Подключение вашей учётной записи Zotero.',
+        "zotero_body": (
+            'При входе через Zotero Rectoly запрашивает ключ API Zotero для чтения и синхронизации'
+            ' вашей библиотеки, документов и аннотаций. Этот ключ хранится в Keychain на вашем'
+            ' устройстве и никогда не отправляется на наши серверы — Rectoly взаимодействует напрямую'
+            ' с API самого Zotero.'
         ),
         "docs_label": 'Ваши документы и аннотации.',
         "docs_body": (
@@ -1303,6 +1448,8 @@ TRANSLATIONS = {
         "h2_third": 'Сторонние сервисы',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'ваша справочная библиотека и синхронизация документов',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'ваша справочная библиотека и синхронизация документов',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'необязательное резервное копирование, управляемое вашим Apple ID',
         "third_sentry_name": 'Sentry',
@@ -1320,8 +1467,8 @@ TRANSLATIONS = {
             'Ваши документы, аннотации и рукописный ввод остаются на устройстве, пока вы их не'
             ' удалите или не удалите приложение. Если включено резервное копирование в iCloud, вы'
             ' можете отключить его в настройках Rectoly или удалить данные iCloud приложения в'
-            ' приложении «Настройки» на устройстве. Отключение учётной записи Mendeley немедленно'
-            ' удаляет локально сохранённый токен доступа.'
+            ' приложении «Настройки» на устройстве. Отключение учётной записи Mendeley или Zotero'
+            ' немедленно удаляет локально сохранённый токен доступа или ключ API.'
         ),
         "h2_children": 'Конфиденциальность детей',
         "children_body": 'Rectoly не предназначен для детей младше 13 лет, и мы сознательно не собираем информацию о них.',
@@ -1338,22 +1485,28 @@ TRANSLATIONS = {
     "ar": {
         "title": 'Rectoly — سياسة الخصوصية',
         "h1": 'Rectoly — سياسة الخصوصية',
-        "updated": 'آخر تحديث 9 أغسطس 2026',
+        "updated": 'آخر تحديث 19 أغسطس 2026',
         "intro": (
             'تطوّر Hawk Eye («نحن») تطبيق Rectoly لأجهزة iPad لقراءة ملفات PDF الأكاديمية والتعليق'
-            ' عليها ومزامنتها مع Mendeley Reference Manager. توضح هذه السياسة المعلومات التي يجمعها'
-            ' Rectoly ولماذا وكيف يتم التعامل معها.'
+            ' عليها ومزامنتها مع برامج إدارة المراجع مثل Mendeley Reference Manager وZotero. توضح هذه'
+            ' السياسة المعلومات التي يجمعها Rectoly ولماذا وكيف يتم التعامل معها.'
         ),
         "h2_collect": 'المعلومات التي نجمعها',
         "mendeley_label": 'اتصال حساب Mendeley الخاص بك.',
         "mendeley_body": (
             'عند تسجيل الدخول باستخدام Mendeley، يطلب Rectoly رمز وصول OAuth لقراءة مكتبتك ومستنداتك'
-            ' وتعليقاتك ومزامنتها. يُخزَّن هذا الرمز في Keychain على جهازك ولا يُرسَل أبدًا إلى'
+            ' وتعليقاتك ومزامنتها. يُخزَّن هذا الرمز في Keychain على جهازك ولا يُرسَل أبدًا إلى'
             ' خوادمنا — يتواصل Rectoly مباشرة مع واجهة برمجة التطبيقات الخاصة بـ Mendeley.'
+        ),
+        "zotero_label": 'اتصال حساب Zotero الخاص بك.',
+        "zotero_body": (
+            'عند تسجيل الدخول باستخدام Zotero، يطلب Rectoly مفتاح API لـ Zotero لقراءة مكتبتك'
+            ' ومستنداتك وتعليقاتك ومزامنتها. يُخزَّن هذا المفتاح في Keychain على جهازك ولا يُرسَل'
+            ' أبدًا إلى خوادمنا — يتواصل Rectoly مباشرة مع واجهة برمجة التطبيقات الخاصة بـ Zotero.'
         ),
         "docs_label": 'مستنداتك وتعليقاتك.',
         "docs_body": (
-            'تُخزَّن ملفات PDF التي تفتحها، إلى جانب التمييز والتسطير والملاحظات اللاصقة وأي حبر'
+            'تُخزَّن ملفات PDF التي تفتحها، إلى جانب التمييز والتسطير والملاحظات اللاصقة وأي حبر'
             ' مكتوب بخط اليد تضيفه، على جهازك. إذا فعّلت النسخ الاحتياطي عبر iCloud، تُنسَخ هذه'
             ' البيانات — وإذا وافقت بشكل منفصل، خطك اليدوي — إلى حساب iCloud الخاص بك عبر CloudKit من'
             ' Apple. ليس لدينا حق الوصول إلى هذه البيانات؛ فهي مشفّرة ومقيّدة بمعرّف Apple ID الخاص'
@@ -1362,7 +1515,7 @@ TRANSLATIONS = {
         "crash_label": 'تقارير الأعطال والأخطاء.',
         "crash_body": (
             'يستخدم Rectoly خدمة Sentry للإبلاغ تلقائيًا عن الأعطال والأخطاء حتى نتمكّن من إصلاح'
-            ' الأخطاء. تُعدَّ هذه التقارير لاستبعاد المعلومات الشخصية: لا يُجمع معرّف مستخدم افتراضي'
+            ' الأخطاء. تُعدَّ هذه التقارير لاستبعاد المعلومات الشخصية: لا يُجمع معرّف مستخدم افتراضي'
             ' ولا عنوان IP، وتُزال عناوين المستندات ومسارات الملفات وعناوين البريد الإلكتروني ورموز'
             ' المصادقة ونص التعليقات قبل إرسال التقرير.'
         ),
@@ -1389,6 +1542,8 @@ TRANSLATIONS = {
         "h2_third": 'خدمات الطرف الثالث',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'مكتبة مراجعك ومزامنة المستندات',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'مكتبة مراجعك ومزامنة المستندات',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'نسخ احتياطي اختياري يخضع لمعرّف Apple ID الخاص بك',
         "third_sentry_name": 'Sentry',
@@ -1402,8 +1557,8 @@ TRANSLATIONS = {
         "retention_body": (
             'تبقى مستنداتك وتعليقاتك وخطك اليدوي على جهازك حتى تحذفها أو تحذف التطبيق. إذا كان النسخ'
             ' الاحتياطي عبر iCloud مفعّلًا، يمكنك إيقافه من إعدادات Rectoly، أو إزالة بيانات iCloud'
-            ' الخاصة بالتطبيق من تطبيق الإعدادات على جهازك. يؤدي قطع اتصال حساب Mendeley إلى إزالة رمز'
-            ' الوصول المخزَّن محليًا فورًا.'
+            ' الخاصة بالتطبيق من تطبيق الإعدادات على جهازك. يؤدي قطع اتصال حساب Mendeley أو Zotero إلى'
+            ' إزالة رمز الوصول أو مفتاح API المخزَّن محليًا فورًا.'
         ),
         "h2_children": 'خصوصية الأطفال',
         "children_body": 'لا يستهدف Rectoly الأطفال دون سن 13 عامًا، ولا نجمع معلومات منهم عن علم.',
@@ -1411,17 +1566,18 @@ TRANSLATIONS = {
         "changes_body": 'قد نحدّث هذه السياسة مع تغيّر التطبيق. ستنعكس التغييرات الجوهرية هنا مع تاريخ محدّث.',
         "h2_contact": 'التواصل',
         "contact_before": 'أسئلة حول هذه السياسة:',
-        "footer": 'طُوِّر Rectoly بواسطة Hawk Eye.',
+        "footer": 'طُوِّر Rectoly بواسطة Hawk Eye.',
         "languages_label": 'اللغات',
     },
     "tr": {
         "title": 'Rectoly — Gizlilik Politikası',
         "h1": 'Rectoly — Gizlilik Politikası',
-        "updated": 'Son güncelleme: 9 Ağustos 2026',
+        "updated": 'Son güncelleme: 19 Ağustos 2026',
         "intro": (
-            'Hawk Eye ("biz") Mendeley Reference Manager ile akademik PDF\'leri okumak, ek açıklama'
-            " eklemek ve senkronize etmek için bir iPad uygulaması olan Rectoly'yi geliştirir. Bu"
-            " politika, Rectoly'nin hangi bilgileri topladığını, neden ve nasıl işlediğini açıklar."
+            'Hawk Eye ("biz") Mendeley Reference Manager ve Zotero gibi referans yöneticileriyle'
+            " akademik PDF'leri okumak, ek açıklama eklemek ve senkronize etmek için bir iPad"
+            " uygulaması olan Rectoly'yi geliştirir. Bu politika, Rectoly'nin hangi bilgileri"
+            ' topladığını, neden ve nasıl işlediğini açıklar.'
         ),
         "h2_collect": 'Topladığımız bilgiler',
         "mendeley_label": 'Mendeley hesabı bağlantınız.',
@@ -1430,6 +1586,13 @@ TRANSLATIONS = {
             ' açıklamalarınızı okumak ve senkronize etmek için bir OAuth erişim jetonu ister. Bu jeton'
             " cihazınızın Keychain'inde saklanır ve sunucularımıza asla gönderilmez — Rectoly doğrudan"
             " Mendeley'in kendi API'siyle iletişim kurar."
+        ),
+        "zotero_label": 'Zotero hesabı bağlantınız.',
+        "zotero_body": (
+            'Zotero ile oturum açtığınızda Rectoly, kitaplığınızı, belgelerinizi ve ek'
+            " açıklamalarınızı okumak ve senkronize etmek için bir Zotero API anahtarı ister. Bu anahtar"
+            " cihazınızın Keychain'inde saklanır ve sunucularımıza asla gönderilmez — Rectoly doğrudan"
+            " Zotero'nun kendi API'siyle iletişim kurar."
         ),
         "docs_label": 'Belgeleriniz ve ek açıklamalarınız.',
         "docs_body": (
@@ -1471,6 +1634,8 @@ TRANSLATIONS = {
         "h2_third": 'Üçüncü taraf hizmetler',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'referans kitaplığınız ve belge senkronizasyonu',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'referans kitaplığınız ve belge senkronizasyonu',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": "isteğe bağlı yedekleme, Apple ID'nizle yönetilir",
         "third_sentry_name": 'Sentry',
@@ -1485,8 +1650,8 @@ TRANSLATIONS = {
             'Belgeleriniz, ek açıklamalarınız ve el yazınız, bunları silene veya uygulamayı silene'
             ' kadar cihazınızda kalır. iCloud yedeklemesi etkinse Rectoly ayarlarından kapatabilir'
             ' veya cihazınızın Ayarlar uygulamasından uygulamanın iCloud verilerini kaldırabilirsiniz.'
-            ' Mendeley hesabınızın bağlantısını kesmek, yerel olarak saklanan erişim jetonunu hemen'
-            ' kaldırır.'
+            ' Mendeley veya Zotero hesabınızın bağlantısını kesmek, yerel olarak saklanan erişim'
+            ' jetonunu veya API anahtarını hemen kaldırır.'
         ),
         "h2_children": 'Çocukların gizliliği',
         "children_body": 'Rectoly 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan bilgi toplamayız.',
@@ -1503,11 +1668,11 @@ TRANSLATIONS = {
     "hi": {
         "title": 'Rectoly — गोपनीयता नीति',
         "h1": 'Rectoly — गोपनीयता नीति',
-        "updated": 'अंतिम अपडेट: 9 अगस्त 2026',
+        "updated": 'अंतिम अपडेट: 19 अगस्त 2026',
         "intro": (
-            'Hawk Eye ("हम") Rectoly विकसित करता है — Mendeley Reference Manager के साथ शैक्षणिक PDF'
-            ' पढ़ने, एनोटेट करने और सिंक करने के लिए एक iPad ऐप। यह नीति बताती है कि Rectoly कौन-सी'
-            ' जानकारी एकत्र करता है, क्यों और उसे कैसे संभाला जाता है।'
+            'Hawk Eye ("हम") Rectoly विकसित करता है — Mendeley Reference Manager और Zotero जैसे संदर्भ'
+            ' प्रबंधकों के साथ शैक्षणिक PDF पढ़ने, एनोटेट करने और सिंक करने के लिए एक iPad ऐप। यह नीति'
+            ' बताती है कि Rectoly कौन-सी जानकारी एकत्र करता है, क्यों और उसे कैसे संभाला जाता है।'
         ),
         "h2_collect": 'हम जो जानकारी एकत्र करते हैं',
         "mendeley_label": 'आपका Mendeley खाता कनेक्शन।',
@@ -1516,6 +1681,13 @@ TRANSLATIONS = {
             ' पढ़ने तथा सिंक करने के लिए OAuth एक्सेस टोकन का अनुरोध करता है। यह टोकन आपके डिवाइस के'
             ' Keychain में संग्रहीत होता है और कभी हमारे सर्वर पर नहीं भेजा जाता — Rectoly सीधे'
             ' Mendeley की अपनी API से बात करता है।'
+        ),
+        "zotero_label": 'आपका Zotero खाता कनेक्शन।',
+        "zotero_body": (
+            'जब आप Zotero से साइन इन करते हैं, तो Rectoly आपकी लाइब्रेरी, दस्तावेज़ और एनोटेशन'
+            ' पढ़ने तथा सिंक करने के लिए Zotero API कुंजी का अनुरोध करता है। यह कुंजी आपके डिवाइस के'
+            ' Keychain में संग्रहीत होती है और कभी हमारे सर्वर पर नहीं भेजी जाती — Rectoly सीधे'
+            ' Zotero की अपनी API से बात करता है।'
         ),
         "docs_label": 'आपके दस्तावेज़ और एनोटेशन।',
         "docs_body": (
@@ -1557,6 +1729,8 @@ TRANSLATIONS = {
         "h2_third": 'तृतीय-पक्ष सेवाएँ',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'आपकी संदर्भ लाइब्रेरी और दस्तावेज़ सिंक',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'आपकी संदर्भ लाइब्रेरी और दस्तावेज़ सिंक',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'वैकल्पिक बैकअप, आपके Apple ID द्वारा नियंत्रित',
         "third_sentry_name": 'Sentry',
@@ -1574,7 +1748,8 @@ TRANSLATIONS = {
             'आपके दस्तावेज़, एनोटेशन और हस्तलिपि आपके डिवाइस पर तब तक रहते हैं जब तक आप उन्हें हटा'
             ' नहीं देते या ऐप नहीं हटाते। यदि iCloud बैकअप सक्षम है, तो आप इसे Rectoly की सेटिंग्स में'
             ' बंद कर सकते हैं, या अपने डिवाइस के Settings ऐप से ऐप का iCloud डेटा हटा सकते हैं। अपना'
-            ' Mendeley खाता डिस्कनेक्ट करने पर स्थानीय रूप से संग्रहीत एक्सेस टोकन तुरंत हट जाता है।'
+            ' Mendeley या Zotero खाता डिस्कनेक्ट करने पर स्थानीय रूप से संग्रहीत एक्सेस टोकन या API'
+            ' कुंजी तुरंत हट जाती है।'
         ),
         "h2_children": 'बच्चों की गोपनीयता',
         "children_body": 'Rectoly 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है, और हम जानबूझकर उनसे जानकारी एकत्र नहीं करते।',
@@ -1591,11 +1766,12 @@ TRANSLATIONS = {
     "id": {
         "title": 'Rectoly — Kebijakan Privasi',
         "h1": 'Rectoly — Kebijakan Privasi',
-        "updated": 'Terakhir diperbarui 9 Agustus 2026',
+        "updated": 'Terakhir diperbarui 19 Agustus 2026',
         "intro": (
             'Hawk Eye ("kami") mengembangkan Rectoly, aplikasi iPad untuk membaca, menganotasi, dan'
-            ' menyinkronkan PDF akademik dengan Mendeley Reference Manager. Kebijakan ini menjelaskan'
-            ' informasi apa yang dikumpulkan Rectoly, mengapa, dan bagaimana penanganannya.'
+            ' menyinkronkan PDF akademik dengan pengelola referensi seperti Mendeley Reference Manager'
+            ' dan Zotero. Kebijakan ini menjelaskan informasi apa yang dikumpulkan Rectoly, mengapa,'
+            ' dan bagaimana penanganannya.'
         ),
         "h2_collect": 'Informasi yang kami kumpulkan',
         "mendeley_label": 'Koneksi akun Mendeley Anda.',
@@ -1604,6 +1780,13 @@ TRANSLATIONS = {
             ' menyinkronkan pustaka, dokumen, dan anotasi Anda. Token ini disimpan di Keychain'
             ' perangkat Anda dan tidak pernah dikirim ke server kami — Rectoly berkomunikasi langsung'
             ' dengan API milik Mendeley.'
+        ),
+        "zotero_label": 'Koneksi akun Zotero Anda.',
+        "zotero_body": (
+            'Saat Anda masuk dengan Zotero, Rectoly meminta kunci API Zotero untuk membaca dan'
+            ' menyinkronkan pustaka, dokumen, dan anotasi Anda. Kunci ini disimpan di Keychain'
+            ' perangkat Anda dan tidak pernah dikirim ke server kami — Rectoly berkomunikasi langsung'
+            ' dengan API milik Zotero.'
         ),
         "docs_label": 'Dokumen dan anotasi Anda.',
         "docs_body": (
@@ -1646,6 +1829,8 @@ TRANSLATIONS = {
         "h2_third": 'Layanan pihak ketiga',
         "third_mendeley_name": 'Mendeley (Elsevier)',
         "third_mendeley_desc": 'pustaka referensi dan sinkronisasi dokumen Anda',
+        "third_zotero_name": 'Zotero (Corporation for Digital Scholarship)',
+        "third_zotero_desc": 'pustaka referensi dan sinkronisasi dokumen Anda',
         "third_icloud_name": 'Apple iCloud / CloudKit',
         "third_icloud_desc": 'cadangan opsional, diatur oleh Apple ID Anda',
         "third_sentry_name": 'Sentry',
@@ -1660,8 +1845,8 @@ TRANSLATIONS = {
             'Dokumen, anotasi, dan tulisan tangan Anda tetap di perangkat hingga Anda menghapusnya'
             ' atau menghapus aplikasi. Jika cadangan iCloud diaktifkan, Anda dapat mematikannya di'
             ' pengaturan Rectoly, atau menghapus data iCloud aplikasi dari aplikasi Pengaturan'
-            ' perangkat. Memutuskan akun Mendeley segera menghapus token akses yang tersimpan secara'
-            ' lokal.'
+            ' perangkat. Memutuskan akun Mendeley atau Zotero segera menghapus token akses atau kunci'
+            ' API yang tersimpan secara lokal.'
         ),
         "h2_children": 'Privasi anak',
         "children_body": (
