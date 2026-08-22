@@ -14,7 +14,7 @@ from pathlib import Path
 from privacy_i18n import LOCALES, TRANSLATIONS
 
 ROOT = Path(__file__).resolve().parent
-EMAIL = "system.takemura@gmail.com"
+EMAIL = "rectoly.app@gmail.com"
 LEGACY_DIR = ROOT / "privacy"
 
 CSS = """
