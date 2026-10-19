@@ -96,6 +96,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonymous product analytics',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'purchases and subscriptions',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB and PubChem (public structure databases)',
+        "third_structures_desc": 'when you view a 3D structure, the structure’s public ID is sent to them; with “Look up online” on, the paper’s DOI is also sent to RCSB PDB',
         "third_note": 'Each of these operates under its own privacy policy, which we encourage you to review.',
         "h2_retention": 'Data retention and deletion',
         "retention_body": (
@@ -174,6 +176,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": '匿名のプロダクト分析',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '購入およびサブスクリプション',
+        "third_structures_name": 'RCSB PDB・AlphaFold DB・EMDB・PubChem(公開の構造データベース)',
+        "third_structures_desc": '3D 構造の表示では、構造の公開 ID を送ります。「オンラインで調べる」が入っていると、論文の DOI も RCSB PDB に送ります',
         "third_note": 'これらはそれぞれ独自のプライバシーポリシーに基づいて運営されており、ご確認をおすすめします。',
         "h2_retention": 'データの保持と削除',
         "retention_body": (
@@ -266,6 +270,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonyme Produktanalysen',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'Käufe und Abonnements',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB und PubChem (öffentliche Strukturdatenbanken)',
+        "third_structures_desc": 'beim Anzeigen einer 3D-Struktur wird deren öffentliche ID an sie gesendet; ist „Online nachschlagen“ eingeschaltet, geht auch die DOI der Arbeit an RCSB PDB',
         "third_note": (
             'Jeder dieser Dienste unterliegt seiner eigenen Datenschutzerklärung, die wir Ihnen zur'
             ' Prüfung empfehlen.'
@@ -367,6 +373,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'análisis anónimo del producto',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'compras y suscripciones',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB y PubChem (bases de datos públicas de estructuras)',
+        "third_structures_desc": 'al ver una estructura 3D se les envía el ID público de la estructura; con «Buscar en línea» activado, el DOI del artículo también se envía a RCSB PDB',
         "third_note": 'Cada uno de estos opera bajo su propia política de privacidad, que le animamos a revisar.',
         "h2_retention": 'Retención y eliminación de datos',
         "retention_body": (
@@ -441,6 +449,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": '匿名产品分析',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '购买与订阅',
+        "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公开的结构数据库）',
+        "third_structures_desc": '查看 3D 结构时，会向其发送该结构的公开 ID；开启“在线查询”后，论文的 DOI 也会发送到 RCSB PDB',
         "third_note": '上述各项均受其各自隐私政策约束，我们建议您查阅。',
         "h2_retention": '数据保留与删除',
         "retention_body": (
@@ -509,6 +519,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": '匿名產品分析',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '購買與訂閱',
+        "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公開的結構資料庫）',
+        "third_structures_desc": '檢視 3D 結構時，會向其傳送該結構的公開 ID；開啟「線上查詢」後，論文的 DOI 也會傳送到 RCSB PDB',
         "third_note": '上述各項均受其各自隱私權政策約束，我們建議您查閱。',
         "h2_retention": '資料保留與刪除',
         "retention_body": (
@@ -602,6 +614,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'analyses anonymes du produit',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'achats et abonnements',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB et PubChem (bases de données publiques de structures)',
+        "third_structures_desc": 'lorsque vous affichez une structure 3D, son identifiant public leur est envoyé ; avec « Rechercher en ligne » activé, le DOI de l’article est aussi envoyé à RCSB PDB',
         "third_note": (
             'Chacun de ces services fonctionne selon sa propre politique de confidentialité, que nous'
             ' vous encourageons à consulter.'
@@ -707,6 +721,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'analisi anonime del prodotto',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'acquisti e abbonamenti',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB e PubChem (banche dati pubbliche di strutture)',
+        "third_structures_desc": 'quando visualizzi una struttura 3D, il suo ID pubblico viene inviato a loro; con «Cerca online» attivo, anche il DOI dell’articolo viene inviato a RCSB PDB',
         "third_note": 'Ognuno di questi opera secondo la propria informativa sulla privacy, che ti invitiamo a consultare.',
         "h2_retention": 'Conservazione ed eliminazione dei dati',
         "retention_body": (
@@ -803,6 +819,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonym produktanalyse',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'køb og abonnementer',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB og PubChem (offentlige strukturdatabaser)',
+        "third_structures_desc": 'når du viser en 3D-struktur, sendes strukturens offentlige id til dem; med »Slå op online« slået til sendes artiklens DOI også til RCSB PDB',
         "third_note": 'Hver af disse opererer under sin egen privatlivspolitik, som vi opfordrer dig til at gennemgå.',
         "h2_retention": 'Dataopbevaring og sletning',
         "retention_body": (
@@ -882,6 +900,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": '익명 제품 분석',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '구매 및 구독',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, PubChem(공개 구조 데이터베이스)',
+        "third_structures_desc": '3D 구조를 볼 때 구조의 공개 ID를 보냅니다. "온라인으로 조회"가 켜져 있으면 논문의 DOI도 RCSB PDB에 보냅니다',
         "third_note": '각 서비스는 자체 개인정보 처리방침에 따라 운영되며, 검토를 권장합니다.',
         "h2_retention": '데이터 보관 및 삭제',
         "retention_body": (
@@ -973,6 +993,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'análises anônimas do produto',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'compras e assinaturas',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB e PubChem (bancos de dados públicos de estruturas)',
+        "third_structures_desc": 'ao ver uma estrutura 3D, o ID público da estrutura é enviado a eles; com “Consultar on-line” ativado, o DOI do artigo também é enviado ao RCSB PDB',
         "third_note": 'Cada um deles opera sob sua própria política de privacidade, que recomendamos que você revise.',
         "h2_retention": 'Retenção e exclusão de dados',
         "retention_body": (
@@ -1072,6 +1094,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonieme productanalyses',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'aankopen en abonnementen',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB en PubChem (openbare structuurdatabases)',
+        "third_structures_desc": 'wanneer u een 3D-structuur bekijkt, wordt de openbare ID van de structuur naar hen gestuurd; met ‘Online opzoeken’ aan wordt ook de DOI van het artikel naar RCSB PDB gestuurd',
         "third_note": 'Elk van deze diensten werkt volgens het eigen privacybeleid, dat we u aanraden te raadplegen.',
         "h2_retention": 'Gegevensbewaring en verwijdering',
         "retention_body": (
@@ -1168,6 +1192,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonym produktanalys',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'köp och prenumerationer',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB och PubChem (offentliga strukturdatabaser)',
+        "third_structures_desc": 'när du visar en 3D-struktur skickas strukturens offentliga id till dem; med ”Slå upp online” på skickas även artikelns DOI till RCSB PDB',
         "third_note": 'Var och en av dessa verkar under sin egen integritetspolicy, som vi uppmuntrar dig att granska.',
         "h2_retention": 'Datalagring och radering',
         "retention_body": (
@@ -1263,6 +1289,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonym produktanalyse',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'kjøp og abonnementer',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB og PubChem (offentlige strukturdatabaser)',
+        "third_structures_desc": 'når du viser en 3D-struktur, sendes strukturens offentlige id til dem; med «Slå opp på nett» på sendes artikkelens DOI også til RCSB PDB',
         "third_note": 'Hver av disse opererer under sin egen personvernerklæring, som vi oppfordrer deg til å gjennomgå.',
         "h2_retention": 'Datalagring og sletting',
         "retention_body": (
@@ -1359,6 +1387,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonimowa analityka produktu',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'zakupy i subskrypcje',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB i PubChem (publiczne bazy struktur)',
+        "third_structures_desc": 'podczas wyświetlania struktury 3D wysyłany jest do nich publiczny identyfikator struktury; przy włączonym „Sprawdzaj online” do RCSB PDB wysyłane jest także DOI pracy',
         "third_note": 'Każda z tych usług działa zgodnie z własną polityką prywatności, którą zachęcamy Cię do przejrzenia.',
         "h2_retention": 'Przechowywanie i usuwanie danych',
         "retention_body": (
@@ -1458,6 +1488,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'анонимная продуктовая аналитика',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'покупки и подписки',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB и PubChem (общедоступные базы структур)',
+        "third_structures_desc": 'при просмотре 3D-структуры им отправляется её общедоступный идентификатор; если включено «Искать онлайн», DOI статьи также отправляется в RCSB PDB',
         "third_note": (
             'Каждый из этих сервисов действует в соответствии со своей политикой конфиденциальности;'
             ' рекомендуем ознакомиться с ними.'
@@ -1552,6 +1584,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'تحليلات المنتج مجهولة الهوية',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'المشتريات والاشتراكات',
+        "third_structures_name": 'RCSB PDB وAlphaFold DB وEMDB وPubChem (قواعد بيانات البنى العامة)',
+        "third_structures_desc": 'عند عرض بنية ثلاثية الأبعاد يُرسَل إليها المعرّف العام للبنية؛ وعند تفعيل «البحث عبر الإنترنت» يُرسَل DOI الورقة أيضًا إلى RCSB PDB',
         "third_note": 'تعمل كل من هذه الخدمات بموجب سياسة خصوصيتها الخاصة، ونشجّعك على مراجعتها.',
         "h2_retention": 'الاحتفاظ بالبيانات وحذفها',
         "retention_body": (
@@ -1644,6 +1678,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'anonim ürün analitikleri',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'satın almalar ve abonelikler',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB ve PubChem (herkese açık yapı veritabanları)',
+        "third_structures_desc": 'bir 3B yapıyı görüntülediğinizde yapının herkese açık kimliği bunlara gönderilir; “Çevrimiçi ara” açıkken makalenin DOI’si de RCSB PDB’ye gönderilir',
         "third_note": 'Bunların her biri kendi gizlilik politikası kapsamında çalışır; incelemenizi öneririz.',
         "h2_retention": 'Veri saklama ve silme',
         "retention_body": (
@@ -1739,6 +1775,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'अनाम उत्पाद विश्लेषण',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'खरीदारी और सदस्यताएँ',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB और PubChem (सार्वजनिक संरचना डेटाबेस)',
+        "third_structures_desc": '3D संरचना देखते समय संरचना की सार्वजनिक ID इन्हें भेजी जाती है; “ऑनलाइन खोजें” चालू होने पर शोधपत्र का DOI भी RCSB PDB को भेजा जाता है',
         "third_note": (
             'इनमें से प्रत्येक अपनी गोपनीयता नीति के अंतर्गत संचालित होता है, जिसे हम आपको समीक्षा'
             ' करने के लिए प्रोत्साहित करते हैं।'
@@ -1839,6 +1877,8 @@ TRANSLATIONS = {
         "third_telemetry_desc": 'analitik produk anonim',
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'pembelian dan langganan',
+        "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, dan PubChem (basis data struktur publik)',
+        "third_structures_desc": 'saat Anda melihat struktur 3D, ID publik struktur tersebut dikirim ke mereka; saat “Cari secara daring” aktif, DOI makalah juga dikirim ke RCSB PDB',
         "third_note": 'Masing-masing beroperasi berdasarkan kebijakan privasinya sendiri, yang kami sarankan Anda tinjau.',
         "h2_retention": 'Retensi dan penghapusan data',
         "retention_body": (

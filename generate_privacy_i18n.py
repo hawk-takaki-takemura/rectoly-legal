@@ -170,6 +170,7 @@ def render(code: str, direction: str) -> str:
     <li><strong>{esc(t["third_sentry_name"])}</strong> — {esc(t["third_sentry_desc"])}</li>
     <li><strong>{esc(t["third_telemetry_name"])}</strong> — {esc(t["third_telemetry_desc"])}</li>
     <li><strong>{esc(t["third_storekit_name"])}</strong> — {esc(t["third_storekit_desc"])}</li>
+    <li><strong>{esc(t["third_structures_name"])}</strong> — {esc(t["third_structures_desc"])}</li>
   </ul>
   <p>{esc(t["third_note"])}</p>
 
