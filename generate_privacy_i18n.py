@@ -15,6 +15,7 @@ from privacy_i18n import LOCALES, TRANSLATIONS
 
 ROOT = Path(__file__).resolve().parent
 EMAIL = "rectoly.app@gmail.com"
+OPENALEX_PRIVACY_URL = "https://openalex.org/OpenAlex_privacy_policy.pdf"
 LEGACY_DIR = ROOT / "privacy"
 
 CSS = """
@@ -121,6 +122,9 @@ def render(code: str, direction: str) -> str:
         f'{esc(t["contact_before"])} '
         f'<a href="mailto:{EMAIL}">{EMAIL}</a>'
     )
+    openalex_link = t["third_openalex_wrap"].format(
+        f'<a href="{OPENALEX_PRIVACY_URL}">{esc(t["third_openalex_link"])}</a>'
+    )
     return f"""<!doctype html>
 <html lang="{esc(code)}" dir="{esc(direction)}">
 <head>
@@ -171,6 +175,7 @@ def render(code: str, direction: str) -> str:
     <li><strong>{esc(t["third_telemetry_name"])}</strong> — {esc(t["third_telemetry_desc"])}</li>
     <li><strong>{esc(t["third_storekit_name"])}</strong> — {esc(t["third_storekit_desc"])}</li>
     <li><strong>{esc(t["third_structures_name"])}</strong> — {esc(t["third_structures_desc"])}</li>
+    <li><strong>{esc(t["third_openalex_name"])}</strong> — {esc(t["third_openalex_desc"])}{openalex_link}</li>
   </ul>
   <p>{esc(t["third_note"])}</p>
 

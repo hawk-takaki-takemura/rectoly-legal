@@ -28,7 +28,7 @@ TRANSLATIONS = {
     "en": {
         "title": 'Rectoly — Privacy Policy',
         "h1": 'Rectoly — Privacy Policy',
-        "updated": 'Last updated August 19, 2026',
+        "updated": 'Last updated November 8, 2026',
         "intro": (
             'Hawk Eye ("we," "us") develops Rectoly, an iPad app for reading, annotating, and syncing'
             ' academic PDFs with reference managers including Mendeley Reference Manager and Zotero.'
@@ -98,6 +98,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'purchases and subscriptions',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB and PubChem (public structure databases)',
         "third_structures_desc": 'when you view a 3D structure, the structure’s public ID is sent to them; with “Look up online” on, the paper’s DOI is also sent to RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'checking papers for retractions. With Pro, and during the free trial, when you open a paper, your device sends its DOI (for an arXiv preprint, the DOI arXiv gives it) to OpenAlex to check whether it has been retracted, at most once a week for each paper. The requests go directly from your device to OpenAlex, which receives your IP address as any web service does; they do not pass through our servers, and we never receive or keep a record of which papers you have. They are made only while “Look up online” is on, and turning it off stops them',
+        "third_openalex_link": 'OpenAlex’s privacy policy',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Each of these operates under its own privacy policy, which we encourage you to review.',
         "h2_retention": 'Data retention and deletion',
         "retention_body": (
@@ -122,7 +126,7 @@ TRANSLATIONS = {
     "ja": {
         "title": 'Rectoly — プライバシーポリシー',
         "h1": 'Rectoly — プライバシーポリシー',
-        "updated": '最終更新日 2026年8月19日',
+        "updated": '最終更新日 2026年11月8日',
         "intro": (
             'Hawk Eye（以下「当社」）は、Mendeley Reference Manager および Zotero と連携して学術 PDF の閲覧・注釈・同期を行う iPad'
             ' アプリ Rectoly を開発しています。本ポリシーでは、Rectoly がどのような情報を収集し、なぜ収集し、どのように取り扱うかを説明します。'
@@ -178,6 +182,10 @@ TRANSLATIONS = {
         "third_storekit_desc": '購入およびサブスクリプション',
         "third_structures_name": 'RCSB PDB・AlphaFold DB・EMDB・PubChem(公開の構造データベース)',
         "third_structures_desc": '3D 構造の表示では、構造の公開 ID を送ります。「オンラインで調べる」が入っていると、論文の DOI も RCSB PDB に送ります',
+        "third_openalex_name": 'OpenAlex(Impactstory, Inc.)',
+        "third_openalex_desc": '論文の撤回の確認に使います。Pro(トライアル中を含む)では、論文を開いたときに、その論文の DOI(arXiv のプレプリントは arXiv が付けた DOI)を端末から OpenAlex に送り、撤回されていないかを調べます。1 本につき週に 1 回までです。問い合わせは端末から OpenAlex に直接届き、当社のサーバーは通りません(OpenAlex は、ほかのウェブサービスと同じく、お客様の IP アドレスを受け取ります)。お客様がどの論文をお持ちかを、当社が受け取ったり記録したりすることはありません。この問い合わせは「オンラインで調べる」がオンのときだけ行い、オフにすると止まります',
+        "third_openalex_link": 'OpenAlex のプライバシーポリシー',
+        "third_openalex_wrap": '({})',
         "third_note": 'これらはそれぞれ独自のプライバシーポリシーに基づいて運営されており、ご確認をおすすめします。',
         "h2_retention": 'データの保持と削除',
         "retention_body": (
@@ -197,7 +205,7 @@ TRANSLATIONS = {
     "de": {
         "title": 'Rectoly — Datenschutzerklärung',
         "h1": 'Rectoly — Datenschutzerklärung',
-        "updated": 'Zuletzt aktualisiert am 19. August 2026',
+        "updated": 'Zuletzt aktualisiert am 8. November 2026',
         "intro": (
             'Hawk Eye („wir", „uns") entwickelt Rectoly, eine iPad-App zum Lesen, Annotieren und'
             ' Synchronisieren akademischer PDFs mit Referenzmanagern wie Mendeley Reference Manager und'
@@ -272,6 +280,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'Käufe und Abonnements',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB und PubChem (öffentliche Strukturdatenbanken)',
         "third_structures_desc": 'beim Anzeigen einer 3D-Struktur wird deren öffentliche ID an sie gesendet; ist „Online nachschlagen“ eingeschaltet, geht auch die DOI der Arbeit an RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'Prüfung von Arbeiten auf einen Rückzug. Mit Pro und während der kostenlosen Testphase sendet Ihr Gerät beim Öffnen einer Arbeit deren DOI (bei einem arXiv-Preprint die von arXiv vergebene DOI) an OpenAlex, um zu prüfen, ob sie zurückgezogen wurde, höchstens einmal pro Woche je Arbeit. Die Anfragen gehen direkt von Ihrem Gerät an OpenAlex, das dabei wie jeder Webdienst Ihre IP-Adresse erhält; sie laufen nicht über unsere Server, und wir erhalten oder speichern nie, welche Arbeiten Sie haben. Sie erfolgen nur, solange „Online nachschlagen“ eingeschaltet ist; wenn Sie es ausschalten, unterbleiben sie',
+        "third_openalex_link": 'Datenschutzerklärung von OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": (
             'Jeder dieser Dienste unterliegt seiner eigenen Datenschutzerklärung, die wir Ihnen zur'
             ' Prüfung empfehlen.'
@@ -302,7 +314,7 @@ TRANSLATIONS = {
     "es": {
         "title": 'Rectoly — Política de privacidad',
         "h1": 'Rectoly — Política de privacidad',
-        "updated": 'Última actualización: 19 de agosto de 2026',
+        "updated": 'Última actualización: 8 de noviembre de 2026',
         "intro": (
             'Hawk Eye ("nosotros") desarrolla Rectoly, una app para iPad para leer, anotar y'
             ' sincronizar PDF académicos con gestores de referencias como Mendeley Reference Manager y'
@@ -375,6 +387,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'compras y suscripciones',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB y PubChem (bases de datos públicas de estructuras)',
         "third_structures_desc": 'al ver una estructura 3D se les envía el ID público de la estructura; con «Buscar en línea» activado, el DOI del artículo también se envía a RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'comprobar si los artículos han sido retractados. Con Pro, y durante la prueba gratuita, al abrir un artículo su dispositivo envía su DOI (en el caso de un preprint de arXiv, el DOI que le asigna arXiv) a OpenAlex para comprobar si ha sido retractado, como máximo una vez por semana por artículo. Las consultas van directamente de su dispositivo a OpenAlex, que recibe su dirección IP como cualquier servicio web; no pasan por nuestros servidores y nunca recibimos ni guardamos qué artículos tiene. Solo se hacen mientras «Buscar en línea» está activado, y al desactivarlo se detienen',
+        "third_openalex_link": 'política de privacidad de OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Cada uno de estos opera bajo su propia política de privacidad, que le animamos a revisar.',
         "h2_retention": 'Retención y eliminación de datos',
         "retention_body": (
@@ -399,7 +415,7 @@ TRANSLATIONS = {
     "zh-Hans": {
         "title": 'Rectoly — 隐私政策',
         "h1": 'Rectoly — 隐私政策',
-        "updated": '最后更新于 2026 年 8 月 19 日',
+        "updated": '最后更新于 2026 年 11 月 8 日',
         "intro": (
             'Hawk Eye（以下简称"我们"）开发了 Rectoly，这是一款用于阅读、批注学术 PDF，并与 Mendeley Reference Manager 和'
             ' Zotero 等文献管理工具同步的 iPad 应用。本政策说明 Rectoly 收集哪些信息、为何收集以及如何处理。'
@@ -451,6 +467,10 @@ TRANSLATIONS = {
         "third_storekit_desc": '购买与订阅',
         "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公开的结构数据库）',
         "third_structures_desc": '查看 3D 结构时，会向其发送该结构的公开 ID；开启“联网查询”后，论文的 DOI 也会发送到 RCSB PDB',
+        "third_openalex_name": 'OpenAlex（Impactstory, Inc.）',
+        "third_openalex_desc": '用于检查论文是否已被撤稿。在 Pro 中（包括免费试用期间），打开论文时，您的设备会将该论文的 DOI（arXiv 预印本则为 arXiv 为其分配的 DOI）发送给 OpenAlex，以检查其是否已被撤稿，每篇论文每周最多一次。这些请求直接从您的设备发送到 OpenAlex，与任何网络服务一样，OpenAlex 会收到您的 IP 地址；请求不经过我们的服务器，我们也从不接收或记录您拥有哪些论文。仅在“联网查询”开启时才会发送这些请求，关闭后即停止',
+        "third_openalex_link": 'OpenAlex 隐私政策',
+        "third_openalex_wrap": '（{}）',
         "third_note": '上述各项均受其各自隐私政策约束，我们建议您查阅。',
         "h2_retention": '数据保留与删除',
         "retention_body": (
@@ -469,7 +489,7 @@ TRANSLATIONS = {
     "zh-Hant": {
         "title": 'Rectoly — 隱私權政策',
         "h1": 'Rectoly — 隱私權政策',
-        "updated": '最後更新於 2026 年 8 月 19 日',
+        "updated": '最後更新於 2026 年 11 月 8 日',
         "intro": (
             'Hawk Eye（以下稱「我們」）開發了 Rectoly，這是一款用於閱讀、註解學術 PDF，並與 Mendeley Reference Manager 和'
             ' Zotero 等文獻管理工具同步的 iPad App。本政策說明 Rectoly 收集哪些資訊、為何收集以及如何處理。'
@@ -521,6 +541,10 @@ TRANSLATIONS = {
         "third_storekit_desc": '購買與訂閱',
         "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公開的結構資料庫）',
         "third_structures_desc": '檢視 3D 結構時，會向其傳送該結構的公開 ID；開啟「連線查詢」後，論文的 DOI 也會傳送到 RCSB PDB',
+        "third_openalex_name": 'OpenAlex（Impactstory, Inc.）',
+        "third_openalex_desc": '用於檢查論文是否已遭撤稿。在 Pro 中（包括免費試用期間），開啟論文時，您的裝置會將該論文的 DOI（arXiv 預印本則為 arXiv 為其指派的 DOI）傳送給 OpenAlex，以檢查其是否已遭撤稿，每篇論文每週最多一次。這些請求直接從您的裝置傳送到 OpenAlex，如同任何網路服務，OpenAlex 會收到您的 IP 位址；請求不經過我們的伺服器，我們也從不接收或記錄您擁有哪些論文。僅在「連線查詢」開啟時才會傳送這些請求，關閉後即停止',
+        "third_openalex_link": 'OpenAlex 隱私權政策',
+        "third_openalex_wrap": '（{}）',
         "third_note": '上述各項均受其各自隱私權政策約束，我們建議您查閱。',
         "h2_retention": '資料保留與刪除',
         "retention_body": (
@@ -539,7 +563,7 @@ TRANSLATIONS = {
     "fr": {
         "title": 'Rectoly — Politique de confidentialité',
         "h1": 'Rectoly — Politique de confidentialité',
-        "updated": 'Dernière mise à jour le 19 août 2026',
+        "updated": 'Dernière mise à jour le 8 novembre 2026',
         "intro": (
             'Hawk Eye (« nous ») développe Rectoly, une app iPad pour lire, annoter et synchroniser'
             ' des PDF académiques avec des gestionnaires de références tels que Mendeley Reference'
@@ -616,6 +640,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'achats et abonnements',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB et PubChem (bases de données publiques de structures)',
         "third_structures_desc": 'lorsque vous affichez une structure 3D, son identifiant public leur est envoyé ; avec « Rechercher en ligne » activé, le DOI de l’article est aussi envoyé à RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'vérifier si des articles ont été rétractés. Avec Pro, et pendant l’essai gratuit, lorsque vous ouvrez un article, votre appareil envoie son DOI (pour une prépublication arXiv, le DOI attribué par arXiv) à OpenAlex pour vérifier s’il a été rétracté, au plus une fois par semaine pour chaque article. Les requêtes vont directement de votre appareil à OpenAlex, qui reçoit votre adresse IP comme tout service web ; elles ne passent pas par nos serveurs, et nous ne recevons ni ne conservons jamais la liste des articles que vous avez. Elles ne sont faites que lorsque « Rechercher en ligne » est activé, et le désactiver les arrête',
+        "third_openalex_link": 'politique de confidentialité d’OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": (
             'Chacun de ces services fonctionne selon sa propre politique de confidentialité, que nous'
             ' vous encourageons à consulter.'
@@ -647,7 +675,7 @@ TRANSLATIONS = {
     "it": {
         "title": 'Rectoly — Informativa sulla privacy',
         "h1": 'Rectoly — Informativa sulla privacy',
-        "updated": 'Ultimo aggiornamento: 19 agosto 2026',
+        "updated": 'Ultimo aggiornamento: 8 novembre 2026',
         "intro": (
             'Hawk Eye ("noi") sviluppa Rectoly, un\'app per iPad per leggere, annotare e sincronizzare'
             ' PDF accademici con gestori di riferimenti come Mendeley Reference Manager e Zotero.'
@@ -723,6 +751,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'acquisti e abbonamenti',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB e PubChem (banche dati pubbliche di strutture)',
         "third_structures_desc": 'quando visualizzi una struttura 3D, il suo ID pubblico viene inviato a loro; con «Cerca online» attivo, anche il DOI dell’articolo viene inviato a RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'verificare se gli articoli sono stati ritrattati. Con Pro, e durante la prova gratuita, quando apri un articolo il tuo dispositivo invia il suo DOI (per un preprint di arXiv, il DOI assegnato da arXiv) a OpenAlex per verificare se è stato ritrattato, al massimo una volta alla settimana per ciascun articolo. Le richieste vanno direttamente dal tuo dispositivo a OpenAlex, che come ogni servizio web riceve il tuo indirizzo IP; non passano dai nostri server e non riceviamo né conserviamo mai l’elenco degli articoli che possiedi. Vengono effettuate solo quando «Cerca online» è attivo, e disattivandolo si interrompono',
+        "third_openalex_link": 'informativa sulla privacy di OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Ognuno di questi opera secondo la propria informativa sulla privacy, che ti invitiamo a consultare.',
         "h2_retention": 'Conservazione ed eliminazione dei dati',
         "retention_body": (
@@ -747,7 +779,7 @@ TRANSLATIONS = {
     "da": {
         "title": 'Rectoly — Privatlivspolitik',
         "h1": 'Rectoly — Privatlivspolitik',
-        "updated": 'Senest opdateret 19. august 2026',
+        "updated": 'Senest opdateret 8. november 2026',
         "intro": (
             'Hawk Eye ("vi", "os") udvikler Rectoly, en iPad-app til at læse, annotere og'
             " synkronisere akademiske PDF'er med referencehåndteringsprogrammer som Mendeley Reference"
@@ -821,6 +853,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'køb og abonnementer',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB og PubChem (offentlige strukturdatabaser)',
         "third_structures_desc": 'når du viser en 3D-struktur, sendes strukturens offentlige id til dem; med »Slå op online« slået til sendes artiklens DOI også til RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'tjek af, om artikler er blevet trukket tilbage. Med Pro og i den gratis prøveperiode sender din enhed, når du åbner en artikel, dens DOI (for et arXiv-preprint den DOI, arXiv har tildelt) til OpenAlex for at tjekke, om den er trukket tilbage, højst en gang om ugen for hver artikel. Forespørgslerne går direkte fra din enhed til OpenAlex, som modtager din IP-adresse ligesom enhver webtjeneste; de går ikke gennem vores servere, og vi modtager eller gemmer aldrig, hvilke artikler du har. De foretages kun, mens »Slå op online« er slået til, og slår du det fra, stopper de',
+        "third_openalex_link": 'OpenAlex’ privatlivspolitik',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Hver af disse opererer under sin egen privatlivspolitik, som vi opfordrer dig til at gennemgå.',
         "h2_retention": 'Dataopbevaring og sletning',
         "retention_body": (
@@ -845,7 +881,7 @@ TRANSLATIONS = {
     "ko": {
         "title": 'Rectoly — 개인정보 처리방침',
         "h1": 'Rectoly — 개인정보 처리방침',
-        "updated": '최종 업데이트: 2026년 8월 19일',
+        "updated": '최종 업데이트: 2026년 11월 8일',
         "intro": (
             'Hawk Eye("당사")는 Mendeley Reference Manager 및 Zotero 등 참고문헌 관리 도구와 함께 학술 PDF를 읽고, 주석을 달고,'
             ' 동기화하는 iPad 앱 Rectoly를 개발합니다. 본 방침은 Rectoly가 어떤 정보를 수집하는지, 왜 수집하는지, 어떻게 처리하는지를 설명합니다.'
@@ -902,6 +938,10 @@ TRANSLATIONS = {
         "third_storekit_desc": '구매 및 구독',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, PubChem(공개 구조 데이터베이스)',
         "third_structures_desc": '3D 구조를 볼 때 구조의 공개 ID를 보냅니다. "온라인에서 조회"가 켜져 있으면 논문의 DOI도 RCSB PDB에 보냅니다',
+        "third_openalex_name": 'OpenAlex(Impactstory, Inc.)',
+        "third_openalex_desc": '논문의 철회 여부 확인에 사용됩니다. Pro(무료 체험 기간 포함)에서는 논문을 열 때 기기가 그 논문의 DOI(arXiv 프리프린트는 arXiv가 부여한 DOI)를 OpenAlex에 보내 철회되지 않았는지 확인합니다. 논문 1편당 일주일에 한 번까지입니다. 요청은 기기에서 OpenAlex로 직접 전송되며(OpenAlex는 다른 웹 서비스와 마찬가지로 IP 주소를 받습니다) 당사 서버를 거치지 않습니다. 사용자가 어떤 논문을 가지고 있는지를 당사가 받거나 기록하는 일은 없습니다. 이 요청은 "온라인에서 조회"가 켜져 있을 때만 이루어지며, 끄면 중지됩니다',
+        "third_openalex_link": 'OpenAlex 개인정보 처리방침',
+        "third_openalex_wrap": '({})',
         "third_note": '각 서비스는 자체 개인정보 처리방침에 따라 운영되며, 검토를 권장합니다.',
         "h2_retention": '데이터 보관 및 삭제',
         "retention_body": (
@@ -921,7 +961,7 @@ TRANSLATIONS = {
     "pt-BR": {
         "title": 'Rectoly — Política de Privacidade',
         "h1": 'Rectoly — Política de Privacidade',
-        "updated": 'Última atualização em 19 de agosto de 2026',
+        "updated": 'Última atualização em 8 de novembro de 2026',
         "intro": (
             'A Hawk Eye ("nós") desenvolve o Rectoly, um app para iPad para ler, anotar e sincronizar'
             ' PDFs acadêmicos com gerenciadores de referências como o Mendeley Reference Manager e o'
@@ -995,6 +1035,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'compras e assinaturas',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB e PubChem (bancos de dados públicos de estruturas)',
         "third_structures_desc": 'ao ver uma estrutura 3D, o ID público da estrutura é enviado a eles; com “Consultar on-line” ativado, o DOI do artigo também é enviado ao RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'verificar se artigos foram retratados. Com o Pro, e durante o teste gratuito, ao abrir um artigo, seu dispositivo envia o DOI dele (para um preprint do arXiv, o DOI atribuído pelo arXiv) ao OpenAlex para verificar se foi retratado, no máximo uma vez por semana para cada artigo. As consultas vão diretamente do seu dispositivo ao OpenAlex, que recebe seu endereço IP como qualquer serviço web; elas não passam pelos nossos servidores, e nunca recebemos nem guardamos quais artigos você tem. Só são feitas enquanto “Consultar on-line” estiver ativado, e desativá-lo as interrompe',
+        "third_openalex_link": 'política de privacidade do OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Cada um deles opera sob sua própria política de privacidade, que recomendamos que você revise.',
         "h2_retention": 'Retenção e exclusão de dados',
         "retention_body": (
@@ -1022,7 +1066,7 @@ TRANSLATIONS = {
     "nl": {
         "title": 'Rectoly — Privacybeleid',
         "h1": 'Rectoly — Privacybeleid',
-        "updated": 'Laatst bijgewerkt op 19 augustus 2026',
+        "updated": 'Laatst bijgewerkt op 8 november 2026',
         "intro": (
             'Hawk Eye ("wij", "ons") ontwikkelt Rectoly, een iPad-app voor het lezen, annoteren en'
             " synchroniseren van academische PDF's met referentiebeheerders zoals Mendeley Reference"
@@ -1096,6 +1140,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'aankopen en abonnementen',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB en PubChem (openbare structuurdatabases)',
         "third_structures_desc": 'wanneer u een 3D-structuur bekijkt, wordt de openbare ID van de structuur naar hen gestuurd; met ‘Online opzoeken’ aan wordt ook de DOI van het artikel naar RCSB PDB gestuurd',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'controleren of artikelen zijn teruggetrokken. Met Pro, en tijdens de gratis proefperiode, stuurt uw apparaat bij het openen van een artikel de DOI ervan (bij een arXiv-preprint de DOI die arXiv eraan geeft) naar OpenAlex om te controleren of het is teruggetrokken, hoogstens één keer per week per artikel. De verzoeken gaan rechtstreeks van uw apparaat naar OpenAlex, dat zoals elke webdienst uw IP-adres ontvangt; ze gaan niet via onze servers, en wij ontvangen of bewaren nooit welke artikelen u hebt. Ze worden alleen gedaan zolang ‘Online opzoeken’ aanstaat, en als u het uitzet, stoppen ze',
+        "third_openalex_link": 'privacybeleid van OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Elk van deze diensten werkt volgens het eigen privacybeleid, dat we u aanraden te raadplegen.',
         "h2_retention": 'Gegevensbewaring en verwijdering',
         "retention_body": (
@@ -1120,7 +1168,7 @@ TRANSLATIONS = {
     "sv": {
         "title": 'Rectoly — Integritetspolicy',
         "h1": 'Rectoly — Integritetspolicy',
-        "updated": 'Senast uppdaterad den 19 augusti 2026',
+        "updated": 'Senast uppdaterad den 8 november 2026',
         "intro": (
             'Hawk Eye ("vi", "oss") utvecklar Rectoly, en iPad-app för att läsa, annotera och'
             ' synkronisera akademiska PDF-filer med referenshanterare som Mendeley Reference Manager'
@@ -1194,6 +1242,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'köp och prenumerationer',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB och PubChem (offentliga strukturdatabaser)',
         "third_structures_desc": 'när du visar en 3D-struktur skickas strukturens offentliga id till dem; med ”Slå upp online” på skickas även artikelns DOI till RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'kontroll av om artiklar har dragits tillbaka. Med Pro, och under den kostnadsfria provperioden, skickar din enhet när du öppnar en artikel dess DOI (för ett arXiv-preprint den DOI som arXiv har tilldelat) till OpenAlex för att kontrollera om den har dragits tillbaka, högst en gång i veckan per artikel. Förfrågningarna går direkt från din enhet till OpenAlex, som tar emot din IP-adress precis som alla webbtjänster; de går inte via våra servrar, och vi tar aldrig emot eller sparar vilka artiklar du har. De görs bara medan ”Slå upp online” är på, och stänger du av det upphör de',
+        "third_openalex_link": 'OpenAlex integritetspolicy',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Var och en av dessa verkar under sin egen integritetspolicy, som vi uppmuntrar dig att granska.',
         "h2_retention": 'Datalagring och radering',
         "retention_body": (
@@ -1218,7 +1270,7 @@ TRANSLATIONS = {
     "nb": {
         "title": 'Rectoly — Personvernerklæring',
         "h1": 'Rectoly — Personvernerklæring',
-        "updated": 'Sist oppdatert 19. august 2026',
+        "updated": 'Sist oppdatert 8. november 2026',
         "intro": (
             'Hawk Eye ("vi", "oss") utvikler Rectoly, en iPad-app for å lese, annotere og'
             ' synkronisere akademiske PDF-er med referansehåndterere som Mendeley Reference Manager og'
@@ -1291,6 +1343,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'kjøp og abonnementer',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB og PubChem (offentlige strukturdatabaser)',
         "third_structures_desc": 'når du viser en 3D-struktur, sendes strukturens offentlige id til dem; med «Slå opp på nett» på sendes artikkelens DOI også til RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'sjekke om artikler er trukket tilbake. Med Pro, og i den gratis prøveperioden, sender enheten din, når du åpner en artikkel, DOI-en dens (for et arXiv-preprint den DOI-en arXiv har tildelt) til OpenAlex for å sjekke om den er trukket tilbake, høyst én gang i uken per artikkel. Forespørslene går direkte fra enheten din til OpenAlex, som mottar IP-adressen din slik enhver nettjeneste gjør; de går ikke via serverne våre, og vi mottar eller lagrer aldri hvilke artikler du har. De gjøres bare mens «Slå opp på nett» er på, og slår du det av, stopper de',
+        "third_openalex_link": 'OpenAlex’ personvernerklæring',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Hver av disse opererer under sin egen personvernerklæring, som vi oppfordrer deg til å gjennomgå.',
         "h2_retention": 'Datalagring og sletting',
         "retention_body": (
@@ -1315,7 +1371,7 @@ TRANSLATIONS = {
     "pl": {
         "title": 'Rectoly — Polityka prywatności',
         "h1": 'Rectoly — Polityka prywatności',
-        "updated": 'Ostatnia aktualizacja: 19 sierpnia 2026',
+        "updated": 'Ostatnia aktualizacja: 8 listopada 2026',
         "intro": (
             'Hawk Eye („my") rozwija Rectoly — aplikację na iPada do czytania, annotowania i'
             ' synchronizowania akademickich plików PDF z menedżerami referencji, takimi jak Mendeley'
@@ -1389,6 +1445,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'zakupy i subskrypcje',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB i PubChem (publiczne bazy struktur)',
         "third_structures_desc": 'podczas wyświetlania struktury 3D wysyłany jest do nich publiczny identyfikator struktury; przy włączonym „Sprawdź online” do RCSB PDB wysyłane jest także DOI pracy',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'sprawdzanie, czy prace nie zostały wycofane. W wersji Pro, a także w okresie próbnym, po otwarciu pracy Twoje urządzenie wysyła jej numer DOI (w przypadku preprintu z arXiv: DOI nadany przez arXiv) do OpenAlex, aby sprawdzić, czy nie została wycofana, najwyżej raz w tygodniu dla każdej pracy. Zapytania trafiają bezpośrednio z Twojego urządzenia do OpenAlex, który, jak każda usługa internetowa, otrzymuje Twój adres IP; nie przechodzą przez nasze serwery i nigdy nie otrzymujemy ani nie przechowujemy informacji o tym, jakie prace masz. Są wysyłane tylko wtedy, gdy włączone jest „Sprawdź online”, a jego wyłączenie je zatrzymuje',
+        "third_openalex_link": 'polityka prywatności OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Każda z tych usług działa zgodnie z własną polityką prywatności, którą zachęcamy Cię do przejrzenia.',
         "h2_retention": 'Przechowywanie i usuwanie danych',
         "retention_body": (
@@ -1416,7 +1476,7 @@ TRANSLATIONS = {
     "ru": {
         "title": 'Rectoly — Политика конфиденциальности',
         "h1": 'Rectoly — Политика конфиденциальности',
-        "updated": 'Последнее обновление: 19 августа 2026 г.',
+        "updated": 'Последнее обновление: 8 ноября 2026 г.',
         "intro": (
             'Hawk Eye («мы») разрабатывает Rectoly — приложение для iPad для чтения, аннотирования и'
             ' синхронизации академических PDF с менеджерами ссылок, включая Mendeley Reference Manager'
@@ -1490,6 +1550,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'покупки и подписки',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB и PubChem (общедоступные базы структур)',
         "third_structures_desc": 'при просмотре 3D-структуры им отправляется её общедоступный идентификатор; если включено «Искать в интернете», DOI статьи также отправляется в RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'проверка, не отозваны ли статьи. В Pro, а также во время пробного периода, при открытии статьи ваше устройство отправляет её DOI (для препринта arXiv — DOI, присвоенный arXiv) в OpenAlex, чтобы проверить, не отозвана ли она, не чаще раза в неделю для каждой статьи. Запросы идут напрямую с вашего устройства в OpenAlex, который, как любой веб-сервис, получает ваш IP-адрес; они не проходят через наши серверы, и мы никогда не получаем и не храним сведения о том, какие статьи у вас есть. Они выполняются, только пока включено «Искать в интернете»; если его выключить, они прекращаются',
+        "third_openalex_link": 'политика конфиденциальности OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": (
             'Каждый из этих сервисов действует в соответствии со своей политикой конфиденциальности;'
             ' рекомендуем ознакомиться с ними.'
@@ -1517,7 +1581,7 @@ TRANSLATIONS = {
     "ar": {
         "title": 'Rectoly — سياسة الخصوصية',
         "h1": 'Rectoly — سياسة الخصوصية',
-        "updated": 'آخر تحديث 19 أغسطس 2026',
+        "updated": 'آخر تحديث 8 نوفمبر 2026',
         "intro": (
             'تطوّر Hawk Eye («نحن») تطبيق Rectoly لأجهزة iPad لقراءة ملفات PDF الأكاديمية والتعليق'
             ' عليها ومزامنتها مع برامج إدارة المراجع مثل Mendeley Reference Manager وZotero. توضح هذه'
@@ -1586,6 +1650,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'المشتريات والاشتراكات',
         "third_structures_name": 'RCSB PDB وAlphaFold DB وEMDB وPubChem (قواعد بيانات البنى العامة)',
         "third_structures_desc": 'عند عرض بنية ثلاثية الأبعاد يُرسَل إليها المعرّف العام للبنية؛ وعند تفعيل «البحث عبر الإنترنت» يُرسَل DOI الورقة أيضًا إلى RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'التحقق مما إذا كانت الأوراق قد سُحبت. مع Pro وخلال الفترة التجريبية المجانية، عندما تفتح ورقة يرسل جهازك معرّف DOI الخاص بها (وللنسخة الأولية المنشورة على arXiv معرّف DOI الذي يمنحه arXiv) إلى OpenAlex للتحقق مما إذا كانت قد سُحبت، مرة واحدة في الأسبوع على الأكثر لكل ورقة. تنتقل الطلبات مباشرة من جهازك إلى OpenAlex، الذي يتلقى عنوان IP الخاص بك كأي خدمة ويب؛ ولا تمر عبر خوادمنا، ولا نتلقى أبدًا ولا نحتفظ بما لديك من أوراق. ولا تُرسَل إلا عندما يكون «البحث عبر الإنترنت» مفعّلًا، وإيقافه يوقفها',
+        "third_openalex_link": 'سياسة الخصوصية لدى OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'تعمل كل من هذه الخدمات بموجب سياسة خصوصيتها الخاصة، ونشجّعك على مراجعتها.',
         "h2_retention": 'الاحتفاظ بالبيانات وحذفها',
         "retention_body": (
@@ -1606,7 +1674,7 @@ TRANSLATIONS = {
     "tr": {
         "title": 'Rectoly — Gizlilik Politikası',
         "h1": 'Rectoly — Gizlilik Politikası',
-        "updated": 'Son güncelleme: 19 Ağustos 2026',
+        "updated": 'Son güncelleme: 8 Kasım 2026',
         "intro": (
             'Hawk Eye ("biz") Mendeley Reference Manager ve Zotero gibi referans yöneticileriyle'
             " akademik PDF'leri okumak, ek açıklama eklemek ve senkronize etmek için bir iPad"
@@ -1680,6 +1748,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'satın almalar ve abonelikler',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB ve PubChem (herkese açık yapı veritabanları)',
         "third_structures_desc": 'bir 3B yapıyı görüntülediğinizde yapının herkese açık kimliği bunlara gönderilir; “Çevrimiçi ara” açıkken makalenin DOI’si de RCSB PDB’ye gönderilir',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'makalelerin geri çekilip çekilmediğini denetlemek. Pro ile ve ücretsiz deneme süresince, bir makaleyi açtığınızda cihazınız onun DOI’sini (arXiv ön baskıları için arXiv’in verdiği DOI’yi) geri çekilip çekilmediğini denetlemek üzere OpenAlex’e gönderir; bu, her makale için haftada en fazla bir kez yapılır. İstekler cihazınızdan doğrudan OpenAlex’e gider ve OpenAlex, her web hizmeti gibi IP adresinizi alır; istekler sunucularımızdan geçmez ve hangi makalelere sahip olduğunuzu asla almayız ya da saklamayız. Bu istekler yalnızca “Çevrimiçi ara” açıkken yapılır ve kapatıldığında durur',
+        "third_openalex_link": 'OpenAlex gizlilik politikası',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Bunların her biri kendi gizlilik politikası kapsamında çalışır; incelemenizi öneririz.',
         "h2_retention": 'Veri saklama ve silme',
         "retention_body": (
@@ -1704,7 +1776,7 @@ TRANSLATIONS = {
     "hi": {
         "title": 'Rectoly — गोपनीयता नीति',
         "h1": 'Rectoly — गोपनीयता नीति',
-        "updated": 'अंतिम अपडेट: 19 अगस्त 2026',
+        "updated": 'अंतिम अपडेट: 8 नवंबर 2026',
         "intro": (
             'Hawk Eye ("हम") Rectoly विकसित करता है — Mendeley Reference Manager और Zotero जैसे संदर्भ'
             ' प्रबंधकों के साथ शैक्षणिक PDF पढ़ने, एनोटेट करने और सिंक करने के लिए एक iPad ऐप। यह नीति'
@@ -1777,6 +1849,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'खरीदारी और सदस्यताएँ',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB और PubChem (सार्वजनिक संरचना डेटाबेस)',
         "third_structures_desc": '3D संरचना देखते समय संरचना की सार्वजनिक ID इन्हें भेजी जाती है; “ऑनलाइन खोजें” चालू होने पर शोधपत्र का DOI भी RCSB PDB को भेजा जाता है',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'शोधपत्र वापस लिए गए (retract) हैं या नहीं, यह जाँचना। Pro में, और मुफ़्त परीक्षण के दौरान, जब आप कोई शोधपत्र खोलते हैं, तो आपका डिवाइस उसका DOI (arXiv प्रीप्रिंट के लिए arXiv द्वारा दिया गया DOI) OpenAlex को भेजता है, ताकि जाँचा जा सके कि वह वापस तो नहीं लिया गया; हर शोधपत्र के लिए यह हफ़्ते में अधिकतम एक बार होता है। ये अनुरोध आपके डिवाइस से सीधे OpenAlex को जाते हैं, जिसे किसी भी वेब सेवा की तरह आपका IP पता मिलता है; ये हमारे सर्वर से होकर नहीं जाते, और आपके पास कौन-से शोधपत्र हैं, यह हम न कभी प्राप्त करते हैं, न दर्ज करते हैं। ये अनुरोध केवल तभी किए जाते हैं जब “ऑनलाइन खोजें” चालू हो, और इसे बंद करने पर ये रुक जाते हैं',
+        "third_openalex_link": 'OpenAlex की गोपनीयता नीति',
+        "third_openalex_wrap": ' ({})',
         "third_note": (
             'इनमें से प्रत्येक अपनी गोपनीयता नीति के अंतर्गत संचालित होता है, जिसे हम आपको समीक्षा'
             ' करने के लिए प्रोत्साहित करते हैं।'
@@ -1804,7 +1880,7 @@ TRANSLATIONS = {
     "id": {
         "title": 'Rectoly — Kebijakan Privasi',
         "h1": 'Rectoly — Kebijakan Privasi',
-        "updated": 'Terakhir diperbarui 19 Agustus 2026',
+        "updated": 'Terakhir diperbarui 8 November 2026',
         "intro": (
             'Hawk Eye ("kami") mengembangkan Rectoly, aplikasi iPad untuk membaca, menganotasi, dan'
             ' menyinkronkan PDF akademik dengan pengelola referensi seperti Mendeley Reference Manager'
@@ -1879,6 +1955,10 @@ TRANSLATIONS = {
         "third_storekit_desc": 'pembelian dan langganan',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, dan PubChem (basis data struktur publik)',
         "third_structures_desc": 'saat Anda melihat struktur 3D, ID publik struktur tersebut dikirim ke mereka; saat “Cari daring” aktif, DOI makalah juga dikirim ke RCSB PDB',
+        "third_openalex_name": 'OpenAlex (Impactstory, Inc.)',
+        "third_openalex_desc": 'memeriksa apakah makalah telah ditarik (diretraksi). Dengan Pro, dan selama uji coba gratis, saat Anda membuka makalah, perangkat Anda mengirimkan DOI-nya (untuk pracetak arXiv, DOI yang diberikan arXiv) ke OpenAlex untuk memeriksa apakah makalah itu telah ditarik, paling banyak seminggu sekali untuk setiap makalah. Permintaan ini dikirim langsung dari perangkat Anda ke OpenAlex, yang menerima alamat IP Anda seperti layanan web lainnya; permintaan tidak melewati server kami, dan kami tidak pernah menerima atau menyimpan daftar makalah yang Anda miliki. Permintaan hanya dilakukan saat “Cari daring” aktif, dan menonaktifkannya menghentikan permintaan tersebut',
+        "third_openalex_link": 'kebijakan privasi OpenAlex',
+        "third_openalex_wrap": ' ({})',
         "third_note": 'Masing-masing beroperasi berdasarkan kebijakan privasinya sendiri, yang kami sarankan Anda tinjau.',
         "h2_retention": 'Retensi dan penghapusan data',
         "retention_body": (
