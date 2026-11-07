@@ -450,7 +450,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '购买与订阅',
         "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公开的结构数据库）',
-        "third_structures_desc": '查看 3D 结构时，会向其发送该结构的公开 ID；开启“在线查询”后，论文的 DOI 也会发送到 RCSB PDB',
+        "third_structures_desc": '查看 3D 结构时，会向其发送该结构的公开 ID；开启“联网查询”后，论文的 DOI 也会发送到 RCSB PDB',
         "third_note": '上述各项均受其各自隐私政策约束，我们建议您查阅。',
         "h2_retention": '数据保留与删除',
         "retention_body": (
@@ -520,7 +520,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '購買與訂閱',
         "third_structures_name": 'RCSB PDB、AlphaFold DB、EMDB 和 PubChem（公開的結構資料庫）',
-        "third_structures_desc": '檢視 3D 結構時，會向其傳送該結構的公開 ID；開啟「線上查詢」後，論文的 DOI 也會傳送到 RCSB PDB',
+        "third_structures_desc": '檢視 3D 結構時，會向其傳送該結構的公開 ID；開啟「連線查詢」後，論文的 DOI 也會傳送到 RCSB PDB',
         "third_note": '上述各項均受其各自隱私權政策約束，我們建議您查閱。',
         "h2_retention": '資料保留與刪除',
         "retention_body": (
@@ -901,7 +901,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": '구매 및 구독',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, PubChem(공개 구조 데이터베이스)',
-        "third_structures_desc": '3D 구조를 볼 때 구조의 공개 ID를 보냅니다. "온라인으로 조회"가 켜져 있으면 논문의 DOI도 RCSB PDB에 보냅니다',
+        "third_structures_desc": '3D 구조를 볼 때 구조의 공개 ID를 보냅니다. "온라인에서 조회"가 켜져 있으면 논문의 DOI도 RCSB PDB에 보냅니다',
         "third_note": '각 서비스는 자체 개인정보 처리방침에 따라 운영되며, 검토를 권장합니다.',
         "h2_retention": '데이터 보관 및 삭제',
         "retention_body": (
@@ -1388,7 +1388,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'zakupy i subskrypcje',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB i PubChem (publiczne bazy struktur)',
-        "third_structures_desc": 'podczas wyświetlania struktury 3D wysyłany jest do nich publiczny identyfikator struktury; przy włączonym „Sprawdzaj online” do RCSB PDB wysyłane jest także DOI pracy',
+        "third_structures_desc": 'podczas wyświetlania struktury 3D wysyłany jest do nich publiczny identyfikator struktury; przy włączonym „Sprawdź online” do RCSB PDB wysyłane jest także DOI pracy',
         "third_note": 'Każda z tych usług działa zgodnie z własną polityką prywatności, którą zachęcamy Cię do przejrzenia.',
         "h2_retention": 'Przechowywanie i usuwanie danych',
         "retention_body": (
@@ -1489,7 +1489,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'покупки и подписки',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB и PubChem (общедоступные базы структур)',
-        "third_structures_desc": 'при просмотре 3D-структуры им отправляется её общедоступный идентификатор; если включено «Искать онлайн», DOI статьи также отправляется в RCSB PDB',
+        "third_structures_desc": 'при просмотре 3D-структуры им отправляется её общедоступный идентификатор; если включено «Искать в интернете», DOI статьи также отправляется в RCSB PDB',
         "third_note": (
             'Каждый из этих сервисов действует в соответствии со своей политикой конфиденциальности;'
             ' рекомендуем ознакомиться с ними.'
@@ -1878,7 +1878,7 @@ TRANSLATIONS = {
         "third_storekit_name": 'Apple StoreKit',
         "third_storekit_desc": 'pembelian dan langganan',
         "third_structures_name": 'RCSB PDB, AlphaFold DB, EMDB, dan PubChem (basis data struktur publik)',
-        "third_structures_desc": 'saat Anda melihat struktur 3D, ID publik struktur tersebut dikirim ke mereka; saat “Cari secara daring” aktif, DOI makalah juga dikirim ke RCSB PDB',
+        "third_structures_desc": 'saat Anda melihat struktur 3D, ID publik struktur tersebut dikirim ke mereka; saat “Cari daring” aktif, DOI makalah juga dikirim ke RCSB PDB',
         "third_note": 'Masing-masing beroperasi berdasarkan kebijakan privasinya sendiri, yang kami sarankan Anda tinjau.',
         "h2_retention": 'Retensi dan penghapusan data',
         "retention_body": (
